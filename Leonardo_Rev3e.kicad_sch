@@ -5,8 +5,13 @@
 	(uuid "2a51061c-e7a1-4f40-b895-9503c97a61e8")
 	(paper "A3")
 	(title_block
-		(date "2023-02-27")
+		(title "Leonardo Board")
+		(date "2024-12-17")
 		(rev "3e")
+		(company "Further adapted by Aanas Sayed")
+		(comment 1 "Ported to KiCad by Ronan LE MEILLAT (https://github.com/eltorio/leonardo)")
+		(comment 2 "Arduino © Leonardo (https://content.arduino.cc/assets/Leonardo-reference.zip)")
+		(comment 3 "Adapted from")
 	)
 	(lib_symbols
 		(symbol "C-EUC0603_1"
