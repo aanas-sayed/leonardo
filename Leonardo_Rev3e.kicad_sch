@@ -1587,6 +1587,169 @@
 				)
 			)
 		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Leonardo_Rev3e:+5V"
 			(power)
 			(exclude_from_sim no)
@@ -2995,24 +3158,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -25.4 -53.34 0)
-					(length 5.08)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P$1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4692,318 +4837,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Leonardo_Rev3e:DIODE-MINIMELF"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 2.54 0.4826 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "DIODE-MINIMELF"
-				(at 2.54 -2.3114 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Leonardo_Rev3e:MINIMELF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DIODE-MINIMELF_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Leonardo_Rev3e:DIODE-SMB"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 2.54 0.4826 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "DIODE-SMB"
-				(at 2.54 -2.3114 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Leonardo_Rev3e:SMB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DIODE-SMB_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
 						(effects
 							(font
 								(size 0 0)
@@ -7750,9 +7583,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at -5.08 -2.54 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 0 0)
@@ -7786,9 +7619,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 0 5.08 270)
 					(length 2.54)
-					(name "G"
+					(name "D"
 						(effects
 							(font
 								(size 0 0)
@@ -9948,16 +9781,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 199.39) (xy 246.38 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a597581-f82f-42ce-993c-a96f11150e5e")
-	)
-	(wire
-		(pts
 			(xy 332.74 173.99) (xy 345.44 186.69)
 		)
 		(stroke
@@ -10078,16 +9901,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 45.72) (xy 74.93 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11dc7d2e-d065-45b8-ae5a-d6065c0817d0")
-	)
-	(wire
-		(pts
 			(xy 336.55 76.2) (xy 336.55 66.04)
 		)
 		(stroke
@@ -10138,7 +9951,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 86.36) (xy 77.47 93.98)
+			(xy 77.47 86.36) (xy 77.47 92.71)
 		)
 		(stroke
 			(width 0)
@@ -11075,6 +10888,16 @@
 			(type default)
 		)
 		(uuid "50773e8c-6ee4-45b5-aa04-7aa8536f37d9")
+	)
+	(wire
+		(pts
+			(xy 74.93 44.45) (xy 74.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f4b459-990f-4522-b09c-a573907754ca")
 	)
 	(wire
 		(pts
@@ -13238,16 +13061,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 99.06) (xy 77.47 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e84a6d51-5f3f-4c89-ad8a-7dfb0f9d9d81")
-	)
-	(wire
-		(pts
 			(xy 345.44 186.69) (xy 363.22 186.69)
 		)
 		(stroke
@@ -13465,6 +13278,16 @@
 			(type default)
 		)
 		(uuid "f2488e71-6e19-493f-a9c1-7e05658b4c7b")
+	)
+	(wire
+		(pts
+			(xy 77.47 100.33) (xy 77.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3336523-639b-436e-87b5-a54109fd92e6")
 	)
 	(wire
 		(pts
@@ -14065,7 +13888,7 @@
 	)
 	(text "+5V AUTO SELECTOR"
 		(exclude_from_sim no)
-		(at 283.21 222.25 0)
+		(at 287.02 221.742 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14832,17 +14655,6 @@
 			(justify left bottom)
 		)
 		(uuid "407d8471-9ceb-4f46-9e00-a4765190c28c")
-	)
-	(label "GND"
-		(at 248.92 199.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "450b2025-42ea-4e87-b472-f60bef9766f5")
 	)
 	(label "IO13*"
 		(at 158.75 48.26 90)
@@ -16194,7 +16006,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n-16V"
 			(at 189.484 236.855 0)
 			(effects
 				(font
@@ -16203,7 +16015,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:C0603-ROUND"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 181.61 236.22 0)
 			(effects
 				(font
@@ -16230,7 +16042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-C0603C104J4RAC7867CT-ND"
+		(property "Manufacturer" "KEMET"
 			(at 181.61 236.22 0)
 			(effects
 				(font
@@ -16239,7 +16051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "C0603C104J4RAC7867"
 			(at 181.61 236.22 0)
 			(effects
 				(font
@@ -16248,7 +16060,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "C0603C104J4RAC7867"
+		(property "Vendor" "DIGIKEY"
+			(at 181.61 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-C0603C104J4RAC7867CT-ND"
 			(at 181.61 236.22 0)
 			(effects
 				(font
@@ -16277,7 +16098,7 @@
 		(at 90.17 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "01d3e83e-a870-425e-bd74-9f0a4974c33d")
@@ -16326,6 +16147,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" ""
+			(at 90.17 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "X"
 			(uuid "9fd03012-9cab-4e1e-ad81-0f5e3870a104")
 		)
@@ -16345,7 +16175,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "033bd168-b201-4653-a989-71ae278c5097")
 		(property "Reference" "R2"
 			(at 60.96 168.6814 0)
@@ -16365,7 +16195,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 64.77 170.18 0)
 			(effects
 				(font
@@ -16384,6 +16214,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
 			(at 64.77 170.18 0)
 			(effects
 				(font
@@ -16435,7 +16274,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:C0603-ROUND"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 318.77 236.22 0)
 			(effects
 				(font
@@ -16462,7 +16301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-C0603C105K4RAC7411CT-ND"
+		(property "Manufacturer" "KEMET"
 			(at 318.77 236.22 0)
 			(effects
 				(font
@@ -16471,7 +16310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "C0603C105K4RAC7411"
 			(at 318.77 236.22 0)
 			(effects
 				(font
@@ -16480,7 +16319,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "C0603C105K4RAC7411"
+		(property "Vendor" "DIGIKEY"
+			(at 318.77 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-C0603C105K4RAC7411CT-ND"
 			(at 318.77 236.22 0)
 			(effects
 				(font
@@ -16531,7 +16379,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:SOT23-DBV"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 295.91 233.68 0)
 			(effects
 				(font
@@ -16558,7 +16406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "LP2985IM5-3.3CT-ND"
+		(property "Manufacturer" "TEXAS INSTRUMENTS"
 			(at 295.91 233.68 0)
 			(effects
 				(font
@@ -16567,7 +16415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Mfg Part No" "LP2985IM5-3.3"
 			(at 295.91 233.68 0)
 			(effects
 				(font
@@ -16576,7 +16424,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "LP2985IM5-3.3"
+		(property "Vendor" "DIGIKEY"
+			(at 295.91 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "LP2985IM5-3.3CT-ND"
 			(at 295.91 233.68 0)
 			(effects
 				(font
@@ -16637,7 +16494,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:C0603-ROUND"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -16664,7 +16521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-14962-1-ND"
+		(property "Manufacturer" "KEMET"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -16673,7 +16530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "C0603C220K5RAC7867"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -16682,7 +16539,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "C0603C220K5RAC7867"
+		(property "Vendor" "DIGIKEY"
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-14962-1-ND"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -16799,7 +16665,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 100.33 124.46 0)
 			(effects
 				(font
@@ -16826,7 +16692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "MH2029-300YCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 100.33 124.46 0)
 			(effects
 				(font
@@ -16835,7 +16701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "MH2029-300Y"
 			(at 100.33 124.46 0)
 			(effects
 				(font
@@ -16844,7 +16710,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "MH2029-300Y"
+		(property "Vendor" "DIGIKEY"
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "MH2029-300YCT-ND"
 			(at 100.33 124.46 0)
 			(effects
 				(font
@@ -16897,7 +16772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:MSOP08"
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 323.85 66.04 0)
 			(effects
 				(font
@@ -16924,7 +16799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "LMV358IDGKR"
+		(property "Manufacturer" "TEXAS INSTRUMENTS"
 			(at 323.85 66.04 0)
 			(effects
 				(font
@@ -16933,7 +16808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Mfg Part No" "296-13455-1-ND"
 			(at 323.85 66.04 0)
 			(effects
 				(font
@@ -16942,7 +16817,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "296-13455-1-ND"
+		(property "Vendor" "DIGIKEY"
+			(at 323.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "LMV358IDGKR"
 			(at 323.85 66.04 0)
 			(effects
 				(font
@@ -17011,7 +16895,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:C0603-ROUND"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 57.15 119.38 0)
 			(effects
 				(font
@@ -17038,7 +16922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-14962-1-ND"
+		(property "Manufacturer" "KEMET"
 			(at 57.15 119.38 0)
 			(effects
 				(font
@@ -17047,7 +16931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "C0603C220K5RAC7867"
 			(at 57.15 119.38 0)
 			(effects
 				(font
@@ -17056,7 +16940,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "C0603C220K5RAC7867"
+		(property "Vendor" "DIGIKEY"
+			(at 57.15 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-14962-1-ND"
 			(at 57.15 119.38 0)
 			(effects
 				(font
@@ -17134,7 +17027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "S7039-ND"
+		(property "Manufacturer" "SULLINS"
 			(at 194.31 86.36 0)
 			(effects
 				(font
@@ -17143,7 +17036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Sullins"
+		(property "Mfg Part No" "PPPC061LFBN-RC"
 			(at 194.31 86.36 0)
 			(effects
 				(font
@@ -17152,7 +17045,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "PPPC061LFBN-RC"
+		(property "Vendor" "DIGIKEY"
+			(at 194.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "S7039-ND"
 			(at 194.31 86.36 0)
 			(effects
 				(font
@@ -17216,7 +17118,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:C0603-ROUND"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 69.85 132.08 0)
 			(effects
 				(font
@@ -17243,7 +17145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-C0603C105K4RAC7411CT-ND"
+		(property "Manufacturer" "KEMET"
 			(at 69.85 132.08 0)
 			(effects
 				(font
@@ -17252,7 +17154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "C0603C105K4RAC7411"
 			(at 69.85 132.08 0)
 			(effects
 				(font
@@ -17261,7 +17163,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "C0603C105K4RAC7411"
+		(property "Vendor" "DIGIKEY"
+			(at 69.85 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-C0603C105K4RAC7411CT-ND"
 			(at 69.85 132.08 0)
 			(effects
 				(font
@@ -17339,7 +17250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "160-1426-1-ND"
+		(property "Manufacturer" "LITE-ON"
 			(at 341.63 93.98 0)
 			(effects
 				(font
@@ -17348,7 +17259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Lite-on"
+		(property "Mfg Part No" "LTST-C171KSKT"
 			(at 341.63 93.98 0)
 			(effects
 				(font
@@ -17357,7 +17268,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "LTST-C171KSKT"
+		(property "Vendor" "DIGIKEY"
+			(at 341.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "160-1428-1-ND"
 			(at 341.63 93.98 0)
 			(effects
 				(font
@@ -17435,7 +17355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "ATMEGA32U4-MU-ND"
+		(property "Manufacturer" "MICROCHIP TECHNOLOGY"
 			(at 151.13 121.92 0)
 			(effects
 				(font
@@ -17444,7 +17364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Microchip"
+		(property "Mfg Part No" "ATMEGA32U4-MU"
 			(at 151.13 121.92 0)
 			(effects
 				(font
@@ -17453,7 +17373,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "ATMEGA32U4-MU"
+		(property "Vendor" "DIGIKEY"
+			(at 151.13 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "ATMEGA32U4-MU-ND"
 			(at 151.13 121.92 0)
 			(effects
 				(font
@@ -17661,7 +17590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "S7043-ND"
+		(property "Manufacturer" "SULLINS"
 			(at 161.29 30.48 0)
 			(effects
 				(font
@@ -17670,7 +17599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Sullins"
+		(property "Mfg Part No" "PPPC101LFBN-RC"
 			(at 161.29 30.48 0)
 			(effects
 				(font
@@ -17679,7 +17608,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "PPPC101LFBN-RC"
+		(property "Vendor" "DIGIKEY"
+			(at 161.29 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "S7043-ND"
 			(at 161.29 30.48 0)
 			(effects
 				(font
@@ -17981,7 +17919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CAY16-22R0F4LFCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 110.49 203.2 0)
 			(effects
 				(font
@@ -17990,7 +17928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "CAY16-22R0F4LF"
 			(at 110.49 203.2 0)
 			(effects
 				(font
@@ -17999,7 +17937,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CAY16-22R0F4LF"
+		(property "Vendor" "DIGIKEY"
+			(at 110.49 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CAY16-22R0F4LFCT-ND"
 			(at 110.49 203.2 0)
 			(effects
 				(font
@@ -18046,7 +17993,7 @@
 		(at 46.99 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2202032c-efbd-41e8-ac3d-9c9a071d15c5")
@@ -18087,6 +18034,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 46.99 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
 			(at 46.99 17.78 0)
 			(effects
 				(font
@@ -18290,7 +18246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "BOURNS"
 			(at 110.49 193.04 0)
 			(effects
 				(font
@@ -18299,7 +18255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "MF-MSMF050-2"
+		(property "Mfg Part No" "MF-MSMF050-2"
 			(at 110.49 193.04 0)
 			(effects
 				(font
@@ -18308,7 +18264,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "MF-MSMF050-2CT-ND"
+		(property "Vendor" "DIGIKEY"
+			(at 110.49 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "MF-MSMF050-2CT-ND"
 			(at 110.49 193.04 0)
 			(effects
 				(font
@@ -18425,7 +18390,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:R0603-ROUND"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 217.17 243.84 0)
 			(effects
 				(font
@@ -18452,7 +18417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CR0603-FX-1002ELFCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 217.17 243.84 0)
 			(effects
 				(font
@@ -18461,7 +18426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "CR0603-FX-1002ELF"
 			(at 217.17 243.84 0)
 			(effects
 				(font
@@ -18470,7 +18435,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CR0603-FX-1002ELF"
+		(property "Vendor" "DIGIKEY "
+			(at 217.17 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CR0603-FX-1002ELFCT-ND"
 			(at 217.17 243.84 0)
 			(effects
 				(font
@@ -18513,7 +18487,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n-16V"
 			(at 156.21 233.68 0)
 			(effects
 				(font
@@ -18522,7 +18496,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:C0603-ROUND"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 153.67 231.14 0)
 			(effects
 				(font
@@ -18549,7 +18523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-C0603C104J4RAC7867CT-ND"
+		(property "Manufacturer" "KEMET"
 			(at 153.67 231.14 0)
 			(effects
 				(font
@@ -18558,7 +18532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "C0603C104J4RAC7867"
 			(at 153.67 231.14 0)
 			(effects
 				(font
@@ -18567,7 +18541,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "C0603C104J4RAC7867"
+		(property "Vendor" "DIGIKEY"
+			(at 153.67 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-C0603C104J4RAC7867CT-ND"
 			(at 153.67 231.14 0)
 			(effects
 				(font
@@ -18686,7 +18669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:MSOP08"
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 143.51 231.14 0)
 			(effects
 				(font
@@ -18713,7 +18696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "LMV358IDGKR"
+		(property "Manufacturer" "TEXAS INSTRUMENTS"
 			(at 143.51 231.14 0)
 			(effects
 				(font
@@ -18722,7 +18705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Mfg Part No" "296-13455-1-ND"
 			(at 143.51 231.14 0)
 			(effects
 				(font
@@ -18731,7 +18714,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "296-13455-1-ND"
+		(property "Vendor" "DIGIKEY"
+			(at 143.51 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "LMV358IDGKR"
 			(at 143.51 231.14 0)
 			(effects
 				(font
@@ -18827,7 +18819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-3708-1-ND"
+		(property "Manufacturer" "KEMET"
 			(at 123.19 233.68 0)
 			(effects
 				(font
@@ -18836,7 +18828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "T491B106M016AT"
 			(at 123.19 233.68 0)
 			(effects
 				(font
@@ -18845,7 +18837,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "T491B106M016AT"
+		(property "Vendor" "DIGIKEY"
+			(at 123.19 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-3708-1-ND"
 			(at 123.19 233.68 0)
 			(effects
 				(font
@@ -18888,7 +18889,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n-16V"
 			(at 112.014 93.599 0)
 			(effects
 				(font
@@ -18897,7 +18898,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:C0603-ROUND"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -18924,7 +18925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-C0603C104J4RAC7867CT-ND"
+		(property "Manufacturer" "KEMET"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -18933,7 +18934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "C0603C104J4RAC7867"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -18942,7 +18943,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "C0603C104J4RAC7867"
+		(property "Vendor" "DIGIKEY"
+			(at 110.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-C0603C104J4RAC7867CT-ND"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -19153,6 +19163,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" ""
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75dfc4d2-ce02-438a-b0cd-49023f99ca78")
 		)
@@ -19179,7 +19198,7 @@
 		(at 83.82 223.52 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "381481d4-239c-46c4-a71a-c8eae3e262f6")
@@ -19228,6 +19247,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" ""
+			(at 83.82 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "X"
 			(uuid "40ea6788-8156-4800-b5b8-4b2e92be9d97")
 		)
@@ -19259,7 +19287,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n-16V"
 			(at 83.566 132.461 0)
 			(effects
 				(font
@@ -19268,7 +19296,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:C0603-ROUND"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -19295,7 +19323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-C0603C104J4RAC7867CT-ND"
+		(property "Manufacturer" "KEMET"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -19304,7 +19332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "C0603C104J4RAC7867"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -19313,7 +19341,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "C0603C104J4RAC7867"
+		(property "Vendor" "DIGIKEY"
+			(at 85.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-C0603C104J4RAC7867CT-ND"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -19392,7 +19429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CAY16-22R0F4LFCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 151.13 203.2 0)
 			(effects
 				(font
@@ -19401,7 +19438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "CAY16-22R0F4LF"
 			(at 151.13 203.2 0)
 			(effects
 				(font
@@ -19410,7 +19447,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CAY16-22R0F4LF"
+		(property "Vendor" "DIGIKEY"
+			(at 151.13 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CAY16-22R0F4LFCT-ND"
 			(at 151.13 203.2 0)
 			(effects
 				(font
@@ -19479,7 +19525,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:CT_CN0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 87.63 238.76 0)
 			(effects
 				(font
@@ -19506,7 +19552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "BOURNS"
 			(at 87.63 238.76 0)
 			(effects
 				(font
@@ -19515,7 +19561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CG0603MLC-05E"
+		(property "Mfg Part No" "CG0603MLC-05E"
 			(at 87.63 238.76 0)
 			(effects
 				(font
@@ -19524,7 +19570,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CG0603MLC-05ECT-ND"
+		(property "Vendor" "DIGIKEY"
+			(at 87.63 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CG0603MLC-05ECT-ND"
 			(at 87.63 238.76 0)
 			(effects
 				(font
@@ -19553,7 +19608,7 @@
 		(at 82.55 254 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "46a7ff94-1738-45fd-8564-093561cf6997")
@@ -19594,6 +19649,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 82.55 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
 			(at 82.55 254 0)
 			(effects
 				(font
@@ -19707,7 +19771,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 54.61 223.52 0)
 			(effects
 				(font
@@ -19734,7 +19798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "MH2029-300YCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 54.61 223.52 0)
 			(effects
 				(font
@@ -19743,7 +19807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "MH2029-300Y"
 			(at 54.61 223.52 0)
 			(effects
 				(font
@@ -19752,7 +19816,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "MH2029-300Y"
+		(property "Vendor" "DIGIKEY"
+			(at 54.61 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "MH2029-300YCT-ND"
 			(at 54.61 223.52 0)
 			(effects
 				(font
@@ -19830,7 +19903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CAY16-1002F4LFCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 171.45 236.22 0)
 			(effects
 				(font
@@ -19839,7 +19912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "CAY16-1002F4LF"
 			(at 171.45 236.22 0)
 			(effects
 				(font
@@ -19848,7 +19921,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CAY16-1002F4LF"
+		(property "Vendor" "DIGIKEY"
+			(at 171.45 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CAY16-1002F4LFCT-ND"
 			(at 171.45 236.22 0)
 			(effects
 				(font
@@ -20010,7 +20092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CAY16-1002F4LFCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 350.52 158.75 0)
 			(effects
 				(font
@@ -20019,7 +20101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "CAY16-1002F4LF"
 			(at 350.52 158.75 0)
 			(effects
 				(font
@@ -20028,7 +20110,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CAY16-1002F4LF"
+		(property "Vendor" "DIGIKEY"
+			(at 350.52 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CAY16-1002F4LFCT-ND"
 			(at 350.52 158.75 0)
 			(effects
 				(font
@@ -20256,7 +20347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CAY16-1001F4LFCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 367.03 86.36 0)
 			(effects
 				(font
@@ -20265,7 +20356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "CAY16-1001F4LF"
 			(at 367.03 86.36 0)
 			(effects
 				(font
@@ -20274,7 +20365,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CAY16-1001F4LF"
+		(property "Vendor" "DIGIKEY"
+			(at 367.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CAY16-1001F4LFCT-ND"
 			(at 367.03 86.36 0)
 			(effects
 				(font
@@ -20321,7 +20421,7 @@
 		(at 102.87 218.44 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5be3c2bc-a599-4366-b9b0-858708fc8b42")
@@ -20362,6 +20462,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
 			(at 102.87 218.44 0)
 			(effects
 				(font
@@ -20543,7 +20652,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:C0603-ROUND"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 273.05 246.38 0)
 			(effects
 				(font
@@ -20570,7 +20679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-C0603C105K4RAC7411CT-ND"
+		(property "Manufacturer" "KEMET"
 			(at 273.05 246.38 0)
 			(effects
 				(font
@@ -20579,7 +20688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "C0603C105K4RAC7411"
 			(at 273.05 246.38 0)
 			(effects
 				(font
@@ -20588,7 +20697,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "C0603C105K4RAC7411"
+		(property "Vendor" "DIGIKEY"
+			(at 273.05 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-C0603C105K4RAC7411CT-ND"
 			(at 273.05 246.38 0)
 			(effects
 				(font
@@ -20639,7 +20757,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:R0603-ROUND"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.01 114.3 0)
 			(effects
 				(font
@@ -20666,7 +20784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CR0603-FX-1004ELFCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 80.01 114.3 0)
 			(effects
 				(font
@@ -20675,7 +20793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "CR0603-FX-1004ELF"
 			(at 80.01 114.3 0)
 			(effects
 				(font
@@ -20684,7 +20802,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CR0603-FX-1004ELF"
+		(property "Vendor" "DIGIKEY"
+			(at 80.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CR0603-FX-1004ELFCT-ND"
 			(at 80.01 114.3 0)
 			(effects
 				(font
@@ -20728,7 +20855,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n-16V"
 			(at 134.874 231.521 0)
 			(effects
 				(font
@@ -20737,7 +20864,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:C0603-ROUND"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 133.35 236.22 0)
 			(effects
 				(font
@@ -20764,7 +20891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-C0603C104J4RAC7867CT-ND"
+		(property "Manufacturer" "KEMET"
 			(at 133.35 236.22 0)
 			(effects
 				(font
@@ -20773,7 +20900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "C0603C104J4RAC7867"
 			(at 133.35 236.22 0)
 			(effects
 				(font
@@ -20782,7 +20909,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "C0603C104J4RAC7867"
+		(property "Vendor" "DIGIKEY"
+			(at 133.35 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-C0603C104J4RAC7867CT-ND"
 			(at 133.35 236.22 0)
 			(effects
 				(font
@@ -20834,7 +20970,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:C0603-ROUND"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 97.79 144.78 0)
 			(effects
 				(font
@@ -20861,7 +20997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-C0603C105K4RAC7411CT-ND"
+		(property "Manufacturer" "KEMET"
 			(at 97.79 144.78 0)
 			(effects
 				(font
@@ -20870,7 +21006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "C0603C105K4RAC7411"
 			(at 97.79 144.78 0)
 			(effects
 				(font
@@ -20879,7 +21015,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "C0603C105K4RAC7411"
+		(property "Vendor" "DIGIKEY"
+			(at 97.79 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-C0603C105K4RAC7411CT-ND"
 			(at 97.79 144.78 0)
 			(effects
 				(font
@@ -21155,7 +21300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CAY16-1002F4LFCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 85.09 96.52 0)
 			(effects
 				(font
@@ -21164,7 +21309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "CAY16-1002F4LF"
 			(at 85.09 96.52 0)
 			(effects
 				(font
@@ -21173,7 +21318,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CAY16-1002F4LF"
+		(property "Vendor" "DIGIKEY"
+			(at 85.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CAY16-1002F4LFCT-ND"
 			(at 85.09 96.52 0)
 			(effects
 				(font
@@ -21216,8 +21370,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Leonardo_Rev3e:DIODE-MINIMELF")
-		(at 77.47 96.52 90)
+		(lib_id "Device:D")
+		(at 77.47 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21225,7 +21379,7 @@
 		(dnp no)
 		(uuid "7b07854d-949c-4c36-8575-bdca8a925fe7")
 		(property "Reference" "D2"
-			(at 72.8726 93.98 0)
+			(at 82.0674 99.06 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -21234,7 +21388,7 @@
 			)
 		)
 		(property "Value" "1N4148W-TP"
-			(at 82.3214 106.68 0)
+			(at 72.6186 86.36 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -21242,7 +21396,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:MINIMELF"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -21269,15 +21423,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "1N4148WTPMSCT-ND"
-			(at 77.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "MCC"
 			(at 77.47 96.52 0)
 			(effects
@@ -21287,7 +21432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "1N4148W-TP"
+		(property "Mfg Part No" "1N4148W-TP"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -21296,10 +21441,28 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(property "Vendor" "DIGIKEY"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "1N4148WTPMSCT-ND"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "f38ffeec-2348-492b-b059-f2a6f801b900")
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "9796dc96-1921-4941-b776-140b03968272")
 		)
 		(instances
@@ -21313,7 +21476,7 @@
 	)
 	(symbol
 		(lib_id "Leonardo_Rev3e:GND")
-		(at 74.93 53.34 0)
+		(at 74.93 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21321,7 +21484,7 @@
 		(dnp no)
 		(uuid "7b5ff92e-01b4-45f6-afc6-6e9ef8e6d323")
 		(property "Reference" "#GND06"
-			(at 74.93 53.34 0)
+			(at 74.93 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21330,7 +21493,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 55.88 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -21339,7 +21502,7 @@
 			)
 		)
 		(property "Footprint" "Leonardo_Rev3e:"
-			(at 74.93 53.34 0)
+			(at 74.93 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21348,7 +21511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 53.34 0)
+			(at 74.93 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21357,7 +21520,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 53.34 0)
+			(at 74.93 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21384,7 +21547,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7baaf94a-6f17-4143-868a-60cf50676729")
 		(property "Reference" "R3"
 			(at 76.2 168.6814 0)
@@ -21404,7 +21567,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 80.01 170.18 0)
 			(effects
 				(font
@@ -21423,6 +21586,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 80.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
 			(at 80.01 170.18 0)
 			(effects
 				(font
@@ -21500,7 +21672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CAY16-1001F4LFCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 331.47 83.82 0)
 			(effects
 				(font
@@ -21509,7 +21681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "CAY16-1001F4LF"
 			(at 331.47 83.82 0)
 			(effects
 				(font
@@ -21518,7 +21690,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CAY16-1001F4LF"
+		(property "Vendor" "DIGIKEY"
+			(at 331.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CAY16-1001F4LFCT-ND"
 			(at 331.47 83.82 0)
 			(effects
 				(font
@@ -21615,7 +21796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-3708-1-ND"
+		(property "Manufacturer" "KEMET"
 			(at 85.09 45.72 0)
 			(effects
 				(font
@@ -21624,7 +21805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "T491B106M016AT"
 			(at 85.09 45.72 0)
 			(effects
 				(font
@@ -21633,7 +21814,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "T491B106M016AT"
+		(property "Vendor" "DIGIKEY"
+			(at 85.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-3708-1-ND"
 			(at 85.09 45.72 0)
 			(effects
 				(font
@@ -21711,7 +21901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "160-1426-1-ND"
+		(property "Manufacturer" "LITE-ON"
 			(at 354.33 93.98 0)
 			(effects
 				(font
@@ -21720,7 +21910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Lite-on"
+		(property "Mfg Part No" "LTST-C171KSKT"
 			(at 354.33 93.98 0)
 			(effects
 				(font
@@ -21729,7 +21919,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "LTST-C171KSKT"
+		(property "Vendor" "DIGIKEY"
+			(at 354.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "160-1428-1-ND"
 			(at 354.33 93.98 0)
 			(effects
 				(font
@@ -21873,15 +22072,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "2223-TS07-667-30-BK-160-SMT-TRCT-ND"
-			(at 44.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "CUI"
 			(at 44.45 68.58 0)
 			(effects
@@ -21891,7 +22081,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "TS07-667-30-BK-160-SMT-TR"
+		(property "Mfg Part No" "TS07-667-30-BK-160-SMT-TR"
+			(at 44.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "DIGIKEY"
+			(at 44.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "2223-TS07-667-30-BK-160-SMT-TRCT-ND"
 			(at 44.45 68.58 0)
 			(effects
 				(font
@@ -21979,7 +22187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CAY16-22R0F4LFCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 110.49 210.82 0)
 			(effects
 				(font
@@ -21988,7 +22196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "CAY16-22R0F4LF"
 			(at 110.49 210.82 0)
 			(effects
 				(font
@@ -21997,7 +22205,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CAY16-22R0F4LF"
+		(property "Vendor" "DIGIKEY"
+			(at 110.49 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CAY16-22R0F4LFCT-ND"
 			(at 110.49 210.82 0)
 			(effects
 				(font
@@ -22093,6 +22310,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" ""
+			(at 49.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd2e2e5e-b308-4b62-9b2b-0d12db1e6681")
 		)
@@ -22165,7 +22391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CAY16-22R0F4LFCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 151.13 198.12 0)
 			(effects
 				(font
@@ -22174,7 +22400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "CAY16-22R0F4LF"
 			(at 151.13 198.12 0)
 			(effects
 				(font
@@ -22183,7 +22409,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CAY16-22R0F4LF"
+		(property "Vendor" "DIGIKEY"
+			(at 151.13 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CAY16-22R0F4LFCT-ND"
 			(at 151.13 198.12 0)
 			(effects
 				(font
@@ -22376,7 +22611,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n-16V"
 			(at 101.854 93.599 0)
 			(effects
 				(font
@@ -22385,7 +22620,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:C0603-ROUND"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -22412,7 +22647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-C0603C104J4RAC7867CT-ND"
+		(property "Manufacturer" "KEMET"
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -22421,7 +22656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "C0603C104J4RAC7867"
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -22430,7 +22665,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "C0603C104J4RAC7867"
+		(property "Vendor" "DIGIKEY"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-C0603C104J4RAC7867CT-ND"
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -22525,7 +22769,7 @@
 		(at 54.61 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9bc7bef2-0f54-42ae-83bc-8bba4e26e42c")
@@ -22566,6 +22810,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
 			(at 54.61 17.78 0)
 			(effects
 				(font
@@ -22703,7 +22956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CAY16-1001F4LFCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 354.33 86.36 0)
 			(effects
 				(font
@@ -22712,7 +22965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "CAY16-1001F4LF"
 			(at 354.33 86.36 0)
 			(effects
 				(font
@@ -22721,7 +22974,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CAY16-1001F4LF"
+		(property "Vendor" "DIGIKEY"
+			(at 354.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CAY16-1001F4LFCT-ND"
 			(at 354.33 86.36 0)
 			(effects
 				(font
@@ -22818,7 +23080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "S7041-ND"
+		(property "Manufacturer" "SULLINS"
 			(at 191.77 30.48 0)
 			(effects
 				(font
@@ -22827,7 +23089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Sullins"
+		(property "Mfg Part No" "PPPC081LFBN-RC"
 			(at 191.77 30.48 0)
 			(effects
 				(font
@@ -22836,7 +23098,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "PPPC081LFBN-RC"
+		(property "Vendor" "DIGIKEY"
+			(at 191.77 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "S7041-ND"
 			(at 191.77 30.48 0)
 			(effects
 				(font
@@ -22933,7 +23204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "SAM15134-ND"
+		(property "Manufacturer" "SAMTEC"
 			(at 74.93 215.9 0)
 			(effects
 				(font
@@ -22942,7 +23213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samtex"
+		(property "Mfg Part No" "DW-02-07-T-S-200"
 			(at 74.93 215.9 0)
 			(effects
 				(font
@@ -22951,7 +23222,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "DW-02-07-T-S-200"
+		(property "Vendor" "DIGIKEY"
+			(at 74.93 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "SAM15134-ND"
 			(at 74.93 215.9 0)
 			(effects
 				(font
@@ -23029,15 +23309,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "A128860-ND"
-			(at 92.71 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TE"
 			(at 92.71 73.66 0)
 			(effects
@@ -23047,7 +23318,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "5-146486-3"
+		(property "Mfg Part No" "5-146486-3"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "DIGIKEY"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "A128860-ND"
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -23203,7 +23492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CAY16-1002F4LFCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 171.45 220.98 0)
 			(effects
 				(font
@@ -23212,7 +23501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "CAY16-1002F4LF"
 			(at 171.45 220.98 0)
 			(effects
 				(font
@@ -23221,7 +23510,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CAY16-1002F4LF"
+		(property "Vendor" "DIGIKEY"
+			(at 171.45 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CAY16-1002F4LFCT-ND"
 			(at 171.45 220.98 0)
 			(effects
 				(font
@@ -23330,8 +23628,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Leonardo_Rev3e:DIODE-SMB")
-		(at 74.93 48.26 90)
+		(lib_id "Device:D")
+		(at 74.93 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23339,7 +23637,7 @@
 		(dnp no)
 		(uuid "bc5d6d31-2708-40cb-a638-c8bbbfe43fea")
 		(property "Reference" "D1"
-			(at 74.4474 45.72 0)
+			(at 77.47 46.736 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -23348,7 +23646,7 @@
 			)
 		)
 		(property "Value" "M7"
-			(at 77.2414 45.72 0)
+			(at 70.866 46.482 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -23356,7 +23654,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:SMB"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 74.93 48.26 0)
 			(effects
 				(font
@@ -23383,10 +23681,19 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(property "Vendor" ""
+			(at 74.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
 			(uuid "8d0da55d-72dc-4a5a-8c3a-65c2b2a5a974")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "c5f6545c-9bf8-4885-8a05-555930d9734b")
 		)
 		(instances
@@ -23427,7 +23734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:MSOP08"
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 207.01 223.52 0)
 			(effects
 				(font
@@ -23454,7 +23761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "LMV358IDGKR"
+		(property "Manufacturer" "TEXAS INSTRUMENTS"
 			(at 207.01 223.52 0)
 			(effects
 				(font
@@ -23463,7 +23770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Mfg Part No" "296-13455-1-ND"
 			(at 207.01 223.52 0)
 			(effects
 				(font
@@ -23472,7 +23779,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "296-13455-1-ND"
+		(property "Vendor" "DIGIKEY"
+			(at 207.01 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "LMV358IDGKR"
 			(at 207.01 223.52 0)
 			(effects
 				(font
@@ -23608,7 +23924,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 234.95 236.22 0)
 			(effects
 				(font
@@ -23644,7 +23960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "FDN340P"
+		(property "Mfg Part No" "FDN340P"
 			(at 234.95 236.22 0)
 			(effects
 				(font
@@ -23653,7 +23969,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "4518-FDN340PCT-ND"
+		(property "Vendor" "DIGIKEY"
+			(at 234.95 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "4518-FDN340PCT-ND"
 			(at 234.95 236.22 0)
 			(effects
 				(font
@@ -23800,7 +24125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Amphenol"
+		(property "Manufacturer" "AMPHENOL"
 			(at 64.77 203.2 0)
 			(effects
 				(font
@@ -23809,7 +24134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "10118194-0001LF"
+		(property "Mfg Part No" "10118194-0001LF"
 			(at 64.77 203.2 0)
 			(effects
 				(font
@@ -23818,7 +24143,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "609-4618-1-ND"
+		(property "Vendor" "DIGIKEY"
+			(at 64.77 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "609-4618-1-ND"
 			(at 64.77 203.2 0)
 			(effects
 				(font
@@ -23918,72 +24252,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Leonardo_Rev3e:GND")
-		(at 246.38 201.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca76ae9a-4b0e-4564-a275-0d54a3408f75")
-		(property "Reference" "#GND03"
-			(at 246.38 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 243.84 204.47 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Leonardo_Rev3e:"
-			(at 246.38 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5dc1b83e-2887-421b-990e-1b73be1d1676")
-		)
-		(instances
-			(project "Leonardo_Rev3e"
-				(path "/2a51061c-e7a1-4f40-b895-9503c97a61e8"
-					(reference "#GND03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Leonardo_Rev3e:LEDCHIPLED_0805")
 		(at 331.47 93.98 0)
 		(unit 1)
@@ -24037,7 +24305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Lite-on"
+		(property "Manufacturer" "LITE-ON"
 			(at 331.47 93.98 0)
 			(effects
 				(font
@@ -24046,7 +24314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "LTST-C171KSKT"
+		(property "Mfg Part No" "LTST-C171KSKT"
 			(at 331.47 93.98 0)
 			(effects
 				(font
@@ -24055,7 +24323,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "160-1428-1-ND"
+		(property "Vendor" "DIGIKEY"
+			(at 331.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "160-1428-1-ND"
 			(at 331.47 93.98 0)
 			(effects
 				(font
@@ -24134,7 +24411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "S7041-ND"
+		(property "Manufacturer" "SULLINS"
 			(at 163.83 86.36 0)
 			(effects
 				(font
@@ -24143,7 +24420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Sullins"
+		(property "Mfg Part No" "PPPC081LFBN-RC"
 			(at 163.83 86.36 0)
 			(effects
 				(font
@@ -24152,7 +24429,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "PPPC081LFBN-RC"
+		(property "Vendor" "DIGIKEY"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "S7041-ND"
 			(at 163.83 86.36 0)
 			(effects
 				(font
@@ -24213,7 +24499,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 277.495 218.44 0)
+			(at 277.622 216.154 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -24265,7 +24551,7 @@
 		(at 39.37 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "db04301b-509f-4277-9675-2f648646fa69")
@@ -24314,6 +24600,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" ""
+			(at 39.37 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Leonardo_Rev3e"
 				(path "/2a51061c-e7a1-4f40-b895-9503c97a61e8"
@@ -24350,7 +24645,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:CT_CN0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.79 238.76 0)
 			(effects
 				(font
@@ -24377,7 +24672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "BOURNS"
 			(at 97.79 238.76 0)
 			(effects
 				(font
@@ -24386,7 +24681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CG0603MLC-05E"
+		(property "Mfg Part No" "CG0603MLC-05E"
 			(at 97.79 238.76 0)
 			(effects
 				(font
@@ -24395,7 +24690,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CG0603MLC-05ECT-ND"
+		(property "Vendor" "DIGIKEY"
+			(at 97.79 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CG0603MLC-05ECT-ND"
 			(at 97.79 238.76 0)
 			(effects
 				(font
@@ -24474,7 +24778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "399-3708-1-ND"
+		(property "Manufacturer" "KEMET"
 			(at 130.81 43.18 0)
 			(effects
 				(font
@@ -24483,7 +24787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfg Part No" "T491B106M016AT"
 			(at 130.81 43.18 0)
 			(effects
 				(font
@@ -24492,7 +24796,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "T491B106M016AT"
+		(property "Vendor" "DIGIKEY"
+			(at 130.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "399-3708-1-ND"
 			(at 130.81 43.18 0)
 			(effects
 				(font
@@ -24702,7 +25015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "CAY16-1001F4LFCT-ND"
+		(property "Manufacturer" "BOURNS"
 			(at 341.63 86.36 0)
 			(effects
 				(font
@@ -24711,7 +25024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Mfg Part No" "CAY16-1001F4LF"
 			(at 341.63 86.36 0)
 			(effects
 				(font
@@ -24720,7 +25033,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "CAY16-1001F4LF"
+		(property "Vendor" "DIGIKEY"
+			(at 341.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "CAY16-1001F4LFCT-ND"
 			(at 341.63 86.36 0)
 			(effects
 				(font
@@ -24816,7 +25138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Lite-on"
+		(property "Manufacturer" "LITE-ON"
 			(at 367.03 99.06 0)
 			(effects
 				(font
@@ -24825,7 +25147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "160-1426-1-ND"
+		(property "Mfg Part No" "LTST-C171KGKT"
 			(at 367.03 99.06 0)
 			(effects
 				(font
@@ -24834,7 +25156,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "LTST-C171KGKT"
+		(property "Vendor" "DIGIKEY"
+			(at 367.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "160-1426-1-ND"
 			(at 367.03 99.06 0)
 			(effects
 				(font
@@ -25308,7 +25639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Microchip"
+		(property "Manufacturer" "MICROCHIP TECHNOLOGY"
 			(at 281.94 146.05 0)
 			(effects
 				(font
@@ -25317,7 +25648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "ATMEGA32U4-AU-ND"
+		(property "Mfg Part No" "ATMEGA32U4-AU"
 			(at 281.94 146.05 0)
 			(effects
 				(font
@@ -25326,7 +25657,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "ATMEGA32U4-AU"
+		(property "Vendor" "DIGIKEY"
+			(at 281.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "ATMEGA32U4-AU-ND"
 			(at 281.94 146.05 0)
 			(effects
 				(font
@@ -25467,9 +25807,6 @@
 		(pin "9"
 			(uuid "16f89f6c-e5c7-4f38-863f-530cdb3c644b")
 		)
-		(pin "P$1"
-			(uuid "74ca860b-1927-4eef-9500-de1960dc71f1")
-		)
 		(instances
 			(project "Leonardo_Rev3e"
 				(path "/2a51061c-e7a1-4f40-b895-9503c97a61e8"
@@ -25506,7 +25843,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:SOT223"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 			(at 102.87 38.1 0)
 			(effects
 				(font
@@ -25533,7 +25870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "TEXAS INSTRUMENTS"
 			(at 102.87 38.1 0)
 			(effects
 				(font
@@ -25542,7 +25879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ref" "REG1117-5"
+		(property "Mfg Part No" "REG1117-5"
 			(at 102.87 38.1 0)
 			(effects
 				(font
@@ -25551,7 +25888,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_ref" "REG1117-5-ND"
+		(property "Vendor" "DIGIKEY "
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "REG1117-5-ND"
 			(at 102.87 38.1 0)
 			(effects
 				(font
