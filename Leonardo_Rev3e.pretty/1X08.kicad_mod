@@ -802,7 +802,7 @@
 		(solder_mask_margin 0.0508)
 		(uuid "88cb5b0f-26ee-441e-93ce-6dbd6ce543c5")
 	)
-	(model "${KIPRJMOD}/Leonardo_Rev3e.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
 		(offset
 			(xyz 8.9 0 0)
 		)

@@ -1587,6 +1587,497 @@
 				)
 			)
 		)
+		(symbol "Connector:USB_B_Micro"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB_B_Micro"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Micro Type B connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector USB micro"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_B_Micro_0_1"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 2.159)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.635 3.429)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.127 -7.62)
+					(end 0.127 -6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.159) (xy 0.635 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826) (xy -4.318 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572) (xy -1.651 4.572) (xy -1.651 4.826)
+						(xy -1.397 5.588) (xy -1.397 5.842) (xy -4.699 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 1.27)
+					(end -0.508 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 -5.207)
+					(end 4.318 -4.953)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -2.667)
+					(end 4.318 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -0.127)
+					(end 4.318 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 4.953)
+					(end 4.318 5.207)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_B_Micro_1_1"
+				(pin power_out line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D"
 			(pin_numbers hide)
 			(pin_names
@@ -4346,170 +4837,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Leonardo_Rev3e:CPOL-EUSMCB"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.143 0.4826 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "CPOL-EUSMCB"
-				(at 1.143 -4.5974 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Leonardo_Rev3e:SMC_B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CPOL-EUSMCB_1_0"
-				(rectangle
-					(start -1.651 -2.54)
-					(end 1.651 -1.651)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.889) (xy 1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -0.889) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at -0.5842 0.4064 900)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "-"
 						(effects
 							(font
 								(size 0 0)
@@ -8200,700 +8527,6 @@
 				)
 			)
 		)
-		(symbol "Leonardo_Rev3e:TS07"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RESET"
-				(at -6.35 -2.54 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TS07"
-				(at -3.81 3.175 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Leonardo_Rev3e:TS07"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.cuidevices.com/product/resource/ts07.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TS07_1_0"
-				(circle
-					(center 0 -2.54)
-					(radius 0.127)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -1.905) (xy -3.175 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 0) (xy -4.445 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 0) (xy -3.175 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 1.905) (xy -4.445 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 1.905) (xy -3.175 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.905) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.127)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -5.08 90)
-					(length 2.54)
-					(name "5-GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Leonardo_Rev3e:USBMICRO"
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "USBMICRO"
-				(at 8.89 -13.97 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Leonardo_Rev3e:10118194-0001LF"
-				(at 8.89 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CONN_10118194-0001LF_AMP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "USBMICRO_0_0"
-				(text "D+"
-					(at 10.668 -5.08 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "D-"
-					(at 10.668 -2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "GND"
-					(at 6.35 -10.16 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-					)
-				)
-				(text "ID"
-					(at 9.398 -7.62 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-					)
-				)
-				(text "VBUS"
-					(at 8.89 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "USBMICRO_1_1"
-				(polyline
-					(pts
-						(xy 5.08 -12.7) (xy 12.7 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -7.62) (xy 7.62 -8.4582)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -7.62) (xy 7.62 -6.7818)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -5.08) (xy 7.62 -5.9182)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -5.08) (xy 7.62 -4.2418)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -2.54) (xy 7.62 -3.3782)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -2.54) (xy 7.62 -1.7018)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -12.7) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-					(number "P1"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-					(number "P2"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-					(number "P3"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "ID"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-					(number "P4"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-					(number "P5"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Leonardo_Rev3e:VARISTORCN0603"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9296,18 +8929,211 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push_Shielded"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 4.318 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push_Shielded"
+				(at 0 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton momentary"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_Shielded_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width -0.0254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_Shielded_1_1"
+				(rectangle
+					(start -3.048 2.54)
+					(end 3.048 -1.27)
+					(stroke
+						(width -0.0254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 87.63 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04c2d436-e2d3-414d-abe2-94058de4a2a6")
-	)
-	(junction
-		(at 44.45 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07183d46-8718-47af-9c79-4722cd6b2e7b")
 	)
 	(junction
 		(at 44.45 210.82)
@@ -9320,12 +9146,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fce0eb3-3b09-4112-a41b-7f28f6de16b4")
-	)
-	(junction
-		(at 87.63 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13018cae-dce5-4805-8f1e-f19a3f885e92")
 	)
 	(junction
 		(at 354.33 78.74)
@@ -9370,16 +9190,16 @@
 		(uuid "305c0b63-e30f-4b9c-994d-f2a429cd040b")
 	)
 	(junction
+		(at 66.04 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "371b2c08-c384-402a-b9a0-f178899e7825")
+	)
+	(junction
 		(at 87.63 254)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39f23155-6bb2-45b6-a98c-e35a400a4441")
-	)
-	(junction
-		(at 66.04 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c566c55-ebc9-470c-94d4-18efd90d8294")
 	)
 	(junction
 		(at 39.37 218.44)
@@ -9478,6 +9298,12 @@
 		(uuid "75331296-4629-41d2-a8d1-fa6b5edf51c0")
 	)
 	(junction
+		(at 85.09 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78faa1a6-f850-4fb3-840a-1400dd8ba2c6")
+	)
+	(junction
 		(at 72.39 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9490,6 +9316,12 @@
 		(uuid "7a13bbd7-d06e-45a8-b07c-d5c3ac91f6d4")
 	)
 	(junction
+		(at 97.79 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c722789-d674-46d4-98aa-6c36ae289993")
+	)
+	(junction
 		(at 181.61 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9500,6 +9332,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88191e6d-0356-4257-85bf-5c0a9efa297a")
+	)
+	(junction
+		(at 50.8 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92475461-af3a-4190-b351-70ec512a0ce5")
 	)
 	(junction
 		(at 120.65 35.56)
@@ -9518,12 +9356,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d8a3618-86d2-4f9e-91c6-b653d47ec69f")
-	)
-	(junction
-		(at 85.09 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e1b2b7f-8a8c-4064-85e1-8bb6b95bbe37")
 	)
 	(junction
 		(at 123.19 132.08)
@@ -9574,6 +9406,12 @@
 		(uuid "ba3104e2-2bbf-4f92-9139-391912441451")
 	)
 	(junction
+		(at 44.45 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba5f78ea-5308-4a3e-be00-942110d17497")
+	)
+	(junction
 		(at 85.09 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9598,12 +9436,6 @@
 		(uuid "bf8443c4-3d22-4268-8692-b14423a03427")
 	)
 	(junction
-		(at 97.79 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c48f808c-2b92-417f-be9d-d71df8a76a5a")
-	)
-	(junction
 		(at 77.47 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9622,18 +9454,6 @@
 		(uuid "cbc08167-9c8d-455b-bcdd-9eef257bab8a")
 	)
 	(junction
-		(at 74.93 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6021429-2335-49b1-9198-21fe170634ff")
-	)
-	(junction
-		(at 46.99 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d965b971-053f-4089-933c-412b84b3c2a9")
-	)
-	(junction
 		(at 275.59 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9644,12 +9464,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcc30fb6-7901-4fc4-962c-efbe61bdea4d")
-	)
-	(junction
-		(at 46.99 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e04f8b3e-34df-4fa7-91e2-1458a594a97e")
 	)
 	(junction
 		(at 273.05 236.22)
@@ -9676,6 +9490,12 @@
 		(uuid "e8aa0b5f-71ce-4643-9cec-db72bab8e8f7")
 	)
 	(junction
+		(at 87.63 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e979383e-fa69-414c-a12a-946657c5b61f")
+	)
+	(junction
 		(at 133.35 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9698,6 +9518,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffb83354-4959-4c7e-a4d6-712eb9ae3758")
+	)
+	(no_connect
+		(at 54.61 215.9)
+		(uuid "909216dd-e312-4489-a53a-73dbfe03f88b")
 	)
 	(wire
 		(pts
@@ -9771,13 +9595,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 48.26) (xy 64.77 48.26)
+			(xy 46.99 60.96) (xy 46.99 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0979e32e-8cff-4445-a7e3-b5f43b40222c")
+		(uuid "0b9442df-50fe-4b3b-8319-9ddc86b05923")
 	)
 	(wire
 		(pts
@@ -9961,13 +9785,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 205.74) (xy 64.77 205.74)
+			(xy 90.17 200.66) (xy 90.17 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1727274a-9cbd-4fe9-9fd9-c530f2869093")
+		(uuid "179443db-baa0-484d-8f2a-14d34259f2aa")
 	)
 	(wire
 		(pts
@@ -9978,6 +9802,16 @@
 			(type default)
 		)
 		(uuid "19321777-4b53-442a-8460-bc7124e78898")
+	)
+	(wire
+		(pts
+			(xy 34.29 33.02) (xy 34.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a0cb78-af88-4321-84be-8de4496ae41b")
 	)
 	(wire
 		(pts
@@ -9998,16 +9832,6 @@
 			(type default)
 		)
 		(uuid "19f3c458-2032-4388-b63d-b30e5eca6b5c")
-	)
-	(wire
-		(pts
-			(xy 44.45 43.18) (xy 44.45 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19f8a619-d428-4668-b083-18e91faa57d2")
 	)
 	(wire
 		(pts
@@ -10111,16 +9935,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 203.2) (xy 90.17 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ff4730d-3699-470a-8afb-8518a0e9040c")
-	)
-	(wire
-		(pts
 			(xy 140.97 27.94) (xy 209.55 27.94)
 		)
 		(stroke
@@ -10148,6 +9962,16 @@
 			(type default)
 		)
 		(uuid "20c04d44-8b37-4475-9803-75168cfa612e")
+	)
+	(wire
+		(pts
+			(xy 44.45 45.72) (xy 44.45 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d6caa0-3b21-4b5a-a99a-31edea183621")
 	)
 	(wire
 		(pts
@@ -10188,6 +10012,16 @@
 			(type default)
 		)
 		(uuid "22dbcde0-8323-428e-a5da-af64f587c6b8")
+	)
+	(wire
+		(pts
+			(xy 77.47 43.18) (xy 85.09 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2484239a-6cb3-47c0-8d7d-c7bc3b0101bc")
 	)
 	(wire
 		(pts
@@ -10338,6 +10172,16 @@
 			(type default)
 		)
 		(uuid "2d55377a-7041-47c3-a95e-4e25ef4edd3b")
+	)
+	(wire
+		(pts
+			(xy 87.63 205.74) (xy 87.63 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f165192-45e5-42b5-8a02-8e2fbc80a5ce")
 	)
 	(polyline
 		(pts
@@ -10611,16 +10455,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 210.82) (xy 125.73 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "405efe6d-8a6d-4327-94b8-ae660d275338")
-	)
-	(wire
-		(pts
 			(xy 308.61 228.6) (xy 318.77 228.6)
 		)
 		(stroke
@@ -10628,6 +10462,16 @@
 			(type default)
 		)
 		(uuid "408bb4e3-b030-498c-b9c6-1a98c51943a8")
+	)
+	(wire
+		(pts
+			(xy 104.14 205.74) (xy 87.63 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b52596-5894-457d-ae65-80ee4f9ae0e1")
 	)
 	(wire
 		(pts
@@ -10831,6 +10675,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 215.9) (xy 66.04 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ccb7783-ddaf-41c0-95fc-8bd864e88d4e")
+	)
+	(wire
+		(pts
 			(xy 97.79 233.68) (xy 97.79 218.44)
 		)
 		(stroke
@@ -10871,16 +10725,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 76.2) (xy 46.99 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5003a1c7-6777-4b62-9044-e5506dd72298")
-	)
-	(wire
-		(pts
 			(xy 166.37 63.5) (xy 168.91 63.5)
 		)
 		(stroke
@@ -10888,16 +10732,6 @@
 			(type default)
 		)
 		(uuid "50773e8c-6ee4-45b5-aa04-7aa8536f37d9")
-	)
-	(wire
-		(pts
-			(xy 74.93 44.45) (xy 74.93 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51f4b459-990f-4522-b09c-a573907754ca")
 	)
 	(wire
 		(pts
@@ -10981,16 +10815,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 213.36) (xy 66.04 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55958f1a-5233-4540-9e45-ffb7565e2a07")
-	)
-	(wire
-		(pts
 			(xy 39.37 215.9) (xy 39.37 213.36)
 		)
 		(stroke
@@ -11008,6 +10832,16 @@
 			(type default)
 		)
 		(uuid "56859550-a5af-4e59-8ec5-b80ffd59cd38")
+	)
+	(wire
+		(pts
+			(xy 119.38 201.93) (xy 128.27 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569b7aca-cbef-4429-b535-6240c0b81485")
 	)
 	(wire
 		(pts
@@ -11041,17 +10875,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 60.96) (xy 46.99 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57a76b1a-add3-4306-a1e0-e41214ce4279")
-	)
-	(wire
-		(pts
-			(xy 105.41 208.28) (xy 87.63 208.28)
+			(xy 109.22 201.93) (xy 104.14 201.93)
 		)
 		(stroke
 			(width 0)
@@ -11341,16 +11165,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 48.26) (xy 64.77 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "655ba43c-95ee-4631-a129-c219b1a388a8")
-	)
-	(wire
-		(pts
 			(xy 325.12 151.13) (xy 317.5 151.13)
 		)
 		(stroke
@@ -11441,6 +11255,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 208.28) (xy 97.79 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68dcce81-cb71-4749-aa16-2ef60ae5231a")
+	)
+	(wire
+		(pts
 			(xy 123.19 144.78) (xy 123.19 132.08)
 		)
 		(stroke
@@ -11461,7 +11285,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 48.26) (xy 44.45 53.34)
+			(xy 44.45 43.18) (xy 44.45 45.72)
 		)
 		(stroke
 			(width 0)
@@ -11478,6 +11302,16 @@
 			(type default)
 		)
 		(uuid "6ae28729-fa6c-4f4c-9d41-28e785fc2315")
+	)
+	(wire
+		(pts
+			(xy 46.99 73.66) (xy 46.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2dc016-3b1f-4807-ac37-a802c2b5d15f")
 	)
 	(wire
 		(pts
@@ -11631,7 +11465,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 203.2) (xy 90.17 203.2)
+			(xy 64.77 200.66) (xy 90.17 200.66)
 		)
 		(stroke
 			(width 0)
@@ -11738,6 +11572,16 @@
 			(type default)
 		)
 		(uuid "866f8136-c907-428f-85a0-bfe17ade528f")
+	)
+	(wire
+		(pts
+			(xy 64.77 205.74) (xy 87.63 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a1f590-a125-4ed9-ba18-1137959a8f32")
 	)
 	(wire
 		(pts
@@ -11871,6 +11715,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 60.96) (xy 50.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c31c4b-6a08-4161-b605-e32b49ff0243")
+	)
+	(wire
+		(pts
 			(xy 46.99 76.2) (xy 67.31 76.2)
 		)
 		(stroke
@@ -11898,16 +11752,6 @@
 			(type default)
 		)
 		(uuid "92f72c09-bbb3-400d-b727-7c1f3c835619")
-	)
-	(wire
-		(pts
-			(xy 66.04 226.06) (xy 66.04 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93852155-7bdd-4107-a7f0-afb0dddb7635")
 	)
 	(wire
 		(pts
@@ -12001,6 +11845,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 215.9) (xy 66.04 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d03692-b36b-41a2-9730-4eb82a4884b1")
+	)
+	(wire
+		(pts
 			(xy 85.09 132.08) (xy 85.09 129.54)
 		)
 		(stroke
@@ -12061,16 +11915,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 43.18) (xy 85.09 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f5fae25-17d6-46ab-b85b-ab8b3f9fe796")
-	)
-	(wire
-		(pts
 			(xy 125.73 101.6) (xy 113.03 101.6)
 		)
 		(stroke
@@ -12078,6 +11922,16 @@
 			(type default)
 		)
 		(uuid "a0789581-bb9e-442b-88f9-23c38e8f2c70")
+	)
+	(wire
+		(pts
+			(xy 50.8 60.96) (xy 57.15 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0872667-dd39-4263-bb1f-417db68a243f")
 	)
 	(wire
 		(pts
@@ -12128,6 +11982,16 @@
 			(type default)
 		)
 		(uuid "a56b56c6-de7f-4c52-b48e-aab5d3d54575")
+	)
+	(wire
+		(pts
+			(xy 104.14 201.93) (xy 104.14 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f355c4-d213-4dde-92b6-4d369899ef72")
 	)
 	(wire
 		(pts
@@ -12191,16 +12055,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 63.5) (xy 46.99 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab7828cb-3355-44b4-8d3d-464403cfa555")
-	)
-	(wire
-		(pts
 			(xy 168.91 63.5) (xy 171.45 63.5)
 		)
 		(stroke
@@ -12251,7 +12105,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 203.2) (xy 125.73 203.2)
+			(xy 119.38 208.28) (xy 129.54 208.28)
 		)
 		(stroke
 			(width 0)
@@ -12401,16 +12255,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 205.74) (xy 105.41 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8f90495-3f0c-4840-8469-28bfb012cb16")
-	)
-	(wire
-		(pts
 			(xy 74.93 170.18) (xy 72.39 170.18)
 		)
 		(stroke
@@ -12471,16 +12315,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 208.28) (xy 64.77 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc1d1d3c-be1f-4fca-85d9-ec5b0c3e164a")
-	)
-	(wire
-		(pts
 			(xy 120.65 134.62) (xy 120.65 137.16)
 		)
 		(stroke
@@ -12521,7 +12355,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 205.74) (xy 97.79 205.74)
+			(xy 97.79 208.28) (xy 109.22 208.28)
 		)
 		(stroke
 			(width 0)
@@ -12538,16 +12372,6 @@
 			(type default)
 		)
 		(uuid "c0fbdc43-c4ef-4917-b33f-dcc2e659264d")
-	)
-	(wire
-		(pts
-			(xy 44.45 63.5) (xy 44.45 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c119d229-0c5b-4696-a137-2f330b2e629f")
 	)
 	(wire
 		(pts
@@ -12801,6 +12625,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 45.72) (xy 44.45 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d524db9c-87d9-48e9-833f-494ee43b05d5")
+	)
+	(wire
+		(pts
 			(xy 49.53 114.3) (xy 49.53 119.38)
 		)
 		(stroke
@@ -12808,16 +12642,6 @@
 			(type default)
 		)
 		(uuid "d5e28432-942d-44a4-98a6-56a17bde16fb")
-	)
-	(wire
-		(pts
-			(xy 87.63 223.52) (xy 87.63 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6beee23-5398-4301-b484-ef825682d05a")
 	)
 	(wire
 		(pts
@@ -12981,7 +12805,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 43.18) (xy 74.93 43.18)
+			(xy 54.61 43.18) (xy 69.85 43.18)
 		)
 		(stroke
 			(width 0)
@@ -13028,16 +12852,6 @@
 			(type default)
 		)
 		(uuid "e5922886-10fd-43c0-aba3-c8b64c9fa25f")
-	)
-	(wire
-		(pts
-			(xy 46.99 73.66) (xy 46.99 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6e4b51a-3a77-4a35-9533-330d908f794c")
 	)
 	(wire
 		(pts
@@ -13128,16 +12942,6 @@
 			(type default)
 		)
 		(uuid "ed8bb748-3d9e-4564-a157-b3eff294ad9e")
-	)
-	(wire
-		(pts
-			(xy 44.45 73.66) (xy 44.45 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee1a6ce5-0189-4fde-b484-adbbfaa518f4")
 	)
 	(wire
 		(pts
@@ -13321,16 +13125,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 73.66) (xy 52.07 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5e9b5b2-f850-496c-8937-e501615fae8d")
-	)
-	(wire
-		(pts
 			(xy 110.49 121.92) (xy 120.65 121.92)
 		)
 		(stroke
@@ -13388,16 +13182,6 @@
 			(type default)
 		)
 		(uuid "f8110542-25d5-4ef9-a836-1004c94f90a9")
-	)
-	(wire
-		(pts
-			(xy 105.41 208.28) (xy 105.41 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8437fd4-cc8e-45b9-a624-ce01f16ed3f2")
 	)
 	(wire
 		(pts
@@ -13551,7 +13335,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 60.96) (xy 57.15 60.96)
+			(xy 46.99 60.96) (xy 50.8 60.96)
 		)
 		(stroke
 			(width 0)
@@ -13571,7 +13355,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 218.44) (xy 97.79 205.74)
+			(xy 97.79 218.44) (xy 97.79 208.28)
 		)
 		(stroke
 			(width 0)
@@ -14734,7 +14518,7 @@
 		(uuid "4f4354b7-9d64-4b45-9757-0ee199a421bf")
 	)
 	(label "RD+"
-		(at 125.73 210.82 0)
+		(at 128.27 201.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14910,7 +14694,7 @@
 		(uuid "6289033c-c68a-4491-8e18-7eb98c55dc87")
 	)
 	(label "RD-"
-		(at 125.73 203.2 0)
+		(at 129.54 208.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15064,7 +14848,7 @@
 		(uuid "80852044-ae0b-4abf-8a9f-c691e025ad9c")
 	)
 	(label "XUSB"
-		(at 80.01 203.2 0)
+		(at 80.01 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15293,17 +15077,6 @@
 			(justify left bottom)
 		)
 		(uuid "a37e2291-5ae3-4ebb-9832-98f25c960655")
-	)
-	(label "VIN"
-		(at 57.15 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "a48beaf3-5894-4c91-9796-7b9fff2c0b6f")
 	)
 	(label "D5*"
 		(at 355.6 176.53 0)
@@ -15680,7 +15453,7 @@
 		(uuid "d6e4076c-e886-456f-a405-3ca46de971a8")
 	)
 	(label "D-"
-		(at 85.09 205.74 0)
+		(at 81.28 208.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15845,7 +15618,7 @@
 		(uuid "efb6ea77-f934-4fd3-a4c1-4c31b6e20d00")
 	)
 	(label "D+"
-		(at 85.09 208.28 0)
+		(at 81.28 205.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15965,27 +15738,6 @@
 		)
 		(uuid "fca5a53e-30b6-43a5-b6ef-0cfc45dbc1b8")
 	)
-	(global_label "5-GND"
-		(shape bidirectional)
-		(at 52.07 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "5bf7916c-4d7b-4640-add3-a5b85d23ab35")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 961.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_name "C-EUC0603_6")
 		(lib_id "Leonardo_Rev3e:C-EUC0603")
@@ -16024,7 +15776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104J4RACTU"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206046.pdf"
 			(at 181.61 236.22 0)
 			(effects
 				(font
@@ -16033,7 +15785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M"
 			(at 181.61 236.22 0)
 			(effects
 				(font
@@ -16042,7 +15794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 181.61 236.22 0)
 			(effects
 				(font
@@ -16051,7 +15803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "C0603C104J4RAC7867"
+		(property "Mfg Part No" "885012206046"
 			(at 181.61 236.22 0)
 			(effects
 				(font
@@ -16060,7 +15812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 181.61 236.22 0)
 			(effects
 				(font
@@ -16069,7 +15821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-C0603C104J4RAC7867CT-ND"
+		(property "Vendor Part No" "710-885012206046"
 			(at 181.61 236.22 0)
 			(effects
 				(font
@@ -16100,7 +15852,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "01d3e83e-a870-425e-bd74-9f0a4974c33d")
 		(property "Reference" "VUSB0"
 			(at 90.17 187.452 0)
@@ -16186,7 +15938,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NM"
+		(property "Value" "0"
 			(at 60.96 173.482 0)
 			(effects
 				(font
@@ -16204,7 +15956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 64.77 170.18 0)
 			(effects
 				(font
@@ -16222,7 +15974,34 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "MOUSER"
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part No" "RC0603FR-070RL"
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "603-RC0603FR-070RL"
 			(at 64.77 170.18 0)
 			(effects
 				(font
@@ -16265,7 +16044,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF-16V"
 			(at 322.199 236.093 0)
 			(effects
 				(font
@@ -16283,7 +16062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C105K4RAC7411"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206052.pdf"
 			(at 318.77 236.22 0)
 			(effects
 				(font
@@ -16301,7 +16080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 318.77 236.22 0)
 			(effects
 				(font
@@ -16310,7 +16089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "C0603C105K4RAC7411"
+		(property "Mfg Part No" "885012206052"
 			(at 318.77 236.22 0)
 			(effects
 				(font
@@ -16319,7 +16098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 318.77 236.22 0)
 			(effects
 				(font
@@ -16328,7 +16107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-C0603C105K4RAC7411CT-ND"
+		(property "Vendor Part No" "710-885012206052"
 			(at 318.77 236.22 0)
 			(effects
 				(font
@@ -16370,7 +16149,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LP2985-33DBVR"
+		(property "Value" "LDI559-3.3EN"
 			(at 288.29 243.84 0)
 			(effects
 				(font
@@ -16388,7 +16167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/LP2985-N"
+		(property "Datasheet" "https://diotec.com/request/datasheet/ldi559en.pdf"
 			(at 295.91 233.68 0)
 			(effects
 				(font
@@ -16406,7 +16185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TEXAS INSTRUMENTS"
+		(property "Manufacturer" "DIOTEC SEMICONDUCTOR"
 			(at 295.91 233.68 0)
 			(effects
 				(font
@@ -16415,7 +16194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "LP2985IM5-3.3"
+		(property "Mfg Part No" "LDI559-3.3EN"
 			(at 295.91 233.68 0)
 			(effects
 				(font
@@ -16424,7 +16203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 295.91 233.68 0)
 			(effects
 				(font
@@ -16433,7 +16212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "LP2985IM5-3.3CT-ND"
+		(property "Vendor Part No" "637-LDI559-3.3EN"
 			(at 295.91 233.68 0)
 			(effects
 				(font
@@ -16485,7 +16264,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "22p"
+		(property "Value" "22p-10V"
 			(at 59.309 107.696 0)
 			(effects
 				(font
@@ -16503,7 +16282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C220K5RAC7867"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012006004.pdf"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -16521,7 +16300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -16530,7 +16309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "C0603C220K5RAC7867"
+		(property "Mfg Part No" "885012006004"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -16539,7 +16318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -16548,7 +16327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-14962-1-ND"
+		(property "Vendor Part No" "710-885012006004"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -16674,7 +16453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/mh.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74279206.pdf"
 			(at 100.33 124.46 0)
 			(effects
 				(font
@@ -16692,7 +16471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "BOURNS"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 100.33 124.46 0)
 			(effects
 				(font
@@ -16701,7 +16480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "MH2029-300Y"
+		(property "Mfg Part No" "74279206"
 			(at 100.33 124.46 0)
 			(effects
 				(font
@@ -16710,7 +16489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 100.33 124.46 0)
 			(effects
 				(font
@@ -16719,7 +16498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "MH2029-300YCT-ND"
+		(property "Vendor Part No" "710-74279206"
 			(at 100.33 124.46 0)
 			(effects
 				(font
@@ -16762,7 +16541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LMV358IDGKR"
+		(property "Value" "LM358LVIDGKR"
 			(at 326.39 71.12 0)
 			(effects
 				(font
@@ -16781,7 +16560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lmv358"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm358lv.pdf"
 			(at 323.85 66.04 0)
 			(effects
 				(font
@@ -16808,7 +16587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "296-13455-1-ND"
+		(property "Mfg Part No" "LM358LVIDGKR"
 			(at 323.85 66.04 0)
 			(effects
 				(font
@@ -16817,7 +16596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 323.85 66.04 0)
 			(effects
 				(font
@@ -16826,7 +16605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "LMV358IDGKR"
+		(property "Vendor Part No" "595-LM358LVIDGKR"
 			(at 323.85 66.04 0)
 			(effects
 				(font
@@ -16886,7 +16665,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "22p"
+		(property "Value" "22p-10V"
 			(at 52.451 120.904 0)
 			(effects
 				(font
@@ -16904,7 +16683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C220K5RAC7867"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012006004.pdf"
 			(at 57.15 119.38 0)
 			(effects
 				(font
@@ -16922,7 +16701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 57.15 119.38 0)
 			(effects
 				(font
@@ -16931,7 +16710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "C0603C220K5RAC7867"
+		(property "Mfg Part No" "885012006004"
 			(at 57.15 119.38 0)
 			(effects
 				(font
@@ -16940,7 +16719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 57.15 119.38 0)
 			(effects
 				(font
@@ -16949,7 +16728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-14962-1-ND"
+		(property "Vendor Part No" "710-885012006004"
 			(at 57.15 119.38 0)
 			(effects
 				(font
@@ -17009,7 +16788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300611821.pdf"
 			(at 194.31 86.36 0)
 			(effects
 				(font
@@ -17027,7 +16806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SULLINS"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 194.31 86.36 0)
 			(effects
 				(font
@@ -17036,7 +16815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "PPPC061LFBN-RC"
+		(property "Mfg Part No" "61300611821"
 			(at 194.31 86.36 0)
 			(effects
 				(font
@@ -17045,7 +16824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 194.31 86.36 0)
 			(effects
 				(font
@@ -17054,7 +16833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "S7039-ND"
+		(property "Vendor Part No" "710-61300611821"
 			(at 194.31 86.36 0)
 			(effects
 				(font
@@ -17109,7 +16888,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF-16V"
 			(at 71.374 136.779 0)
 			(effects
 				(font
@@ -17127,7 +16906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C105K4RAC7411"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206052.pdf"
 			(at 69.85 132.08 0)
 			(effects
 				(font
@@ -17145,7 +16924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 69.85 132.08 0)
 			(effects
 				(font
@@ -17154,7 +16933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "C0603C105K4RAC7411"
+		(property "Mfg Part No" "885012206052"
 			(at 69.85 132.08 0)
 			(effects
 				(font
@@ -17163,7 +16942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 69.85 132.08 0)
 			(effects
 				(font
@@ -17172,7 +16951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-C0603C105K4RAC7411CT-ND"
+		(property "Vendor Part No" "710-885012206052"
 			(at 69.85 132.08 0)
 			(effects
 				(font
@@ -17232,7 +17011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080YS75000.pdf"
 			(at 341.63 93.98 0)
 			(effects
 				(font
@@ -17250,7 +17029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITE-ON"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 341.63 93.98 0)
 			(effects
 				(font
@@ -17259,7 +17038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "LTST-C171KSKT"
+		(property "Mfg Part No" "150080YS75000"
 			(at 341.63 93.98 0)
 			(effects
 				(font
@@ -17268,7 +17047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 341.63 93.98 0)
 			(effects
 				(font
@@ -17277,7 +17056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "160-1428-1-ND"
+		(property "Vendor Part No" "710-150080YS75000"
 			(at 341.63 93.98 0)
 			(effects
 				(font
@@ -17319,7 +17098,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ATMEGA32U4-XUMU"
+		(property "Value" "ATMEGA32U4-MU"
 			(at 130.81 185.42 0)
 			(effects
 				(font
@@ -17337,7 +17116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf"
 			(at 151.13 121.92 0)
 			(effects
 				(font
@@ -17373,7 +17152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 151.13 121.92 0)
 			(effects
 				(font
@@ -17382,7 +17161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "ATMEGA32U4-MU-ND"
+		(property "Vendor Part No" "556-ATMEGA32U4-MU"
 			(at 151.13 121.92 0)
 			(effects
 				(font
@@ -17572,7 +17351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61301011821.pdf"
 			(at 161.29 30.48 0)
 			(effects
 				(font
@@ -17590,7 +17369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SULLINS"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 161.29 30.48 0)
 			(effects
 				(font
@@ -17599,7 +17378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "PPPC101LFBN-RC"
+		(property "Mfg Part No" "61301011821"
 			(at 161.29 30.48 0)
 			(effects
 				(font
@@ -17608,7 +17387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 161.29 30.48 0)
 			(effects
 				(font
@@ -17617,7 +17396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "S7043-ND"
+		(property "Vendor Part No" "710-61301011821"
 			(at 161.29 30.48 0)
 			(effects
 				(font
@@ -17866,7 +17645,7 @@
 	)
 	(symbol
 		(lib_id "Leonardo_Rev3e:4R-NCAY16")
-		(at 110.49 203.2 0)
+		(at 114.3 208.28 0)
 		(mirror y)
 		(unit 4)
 		(exclude_from_sim no)
@@ -17875,7 +17654,7 @@
 		(dnp no)
 		(uuid "1e5cfb7d-5745-472f-88e5-3f2febb79384")
 		(property "Reference" "RN3"
-			(at 115.57 206.248 0)
+			(at 119.38 211.328 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17884,7 +17663,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 107.95 206.248 0)
+			(at 111.76 211.328 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17892,8 +17671,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:CAY16"
-			(at 110.49 203.2 0)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 114.3 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17901,8 +17680,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
-			(at 110.49 203.2 0)
+		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CATCAY.pdf"
+			(at 114.3 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17911,7 +17690,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 203.2 0)
+			(at 114.3 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17920,7 +17699,7 @@
 			)
 		)
 		(property "Manufacturer" "BOURNS"
-			(at 110.49 203.2 0)
+			(at 114.3 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17929,7 +17708,7 @@
 			)
 		)
 		(property "Mfg Part No" "CAY16-22R0F4LF"
-			(at 110.49 203.2 0)
+			(at 114.3 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17937,8 +17716,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
-			(at 110.49 203.2 0)
+		(property "Vendor" "MOUSER"
+			(at 114.3 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17946,8 +17725,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CAY16-22R0F4LFCT-ND"
-			(at 110.49 203.2 0)
+		(property "Vendor Part No" "652-CAY16-22R0F4LF"
+			(at 114.3 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17995,7 +17774,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2202032c-efbd-41e8-ac3d-9c9a071d15c5")
 		(property "Reference" "FID2"
 			(at 46.99 17.78 0)
@@ -18210,7 +17989,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MF-MSMF050-2 500mA"
+		(property "Value" "500mA"
 			(at 106.68 196.342 90)
 			(effects
 				(font
@@ -18219,7 +17998,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:L1812"
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 110.49 193.04 0)
 			(effects
 				(font
@@ -18228,7 +18007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf"
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf"
 			(at 110.49 193.04 0)
 			(effects
 				(font
@@ -18246,7 +18025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "BOURNS"
+		(property "Manufacturer" "BEL FUSE"
 			(at 110.49 193.04 0)
 			(effects
 				(font
@@ -18255,7 +18034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "MF-MSMF050-2"
+		(property "Mfg Part No" "0ZCG0050FF2C"
 			(at 110.49 193.04 0)
 			(effects
 				(font
@@ -18264,7 +18043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 110.49 193.04 0)
 			(effects
 				(font
@@ -18273,7 +18052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "MF-MSMF050-2CT-ND"
+		(property "Vendor Part No" "530-0ZCG0050FF2C"
 			(at 110.49 193.04 0)
 			(effects
 				(font
@@ -18399,7 +18178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
+		(property "Datasheet" "http://www.kamaya.co.jp/upload/products_pdf/kamaya_products(RMC1-32,RMC1-20,RMC1-16S,RMC1-16,RMC1-10,RMC1-8,RMC1-4,RMC1-2,RMC1)_english_20240824_132441.pdf"
 			(at 217.17 243.84 0)
 			(effects
 				(font
@@ -18417,7 +18196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "BOURNS"
+		(property "Manufacturer" "KAMAYA"
 			(at 217.17 243.84 0)
 			(effects
 				(font
@@ -18426,7 +18205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "CR0603-FX-1002ELF"
+		(property "Mfg Part No" "RMC1/16-103JTP"
 			(at 217.17 243.84 0)
 			(effects
 				(font
@@ -18435,7 +18214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY "
+		(property "Vendor" "MOUSER"
 			(at 217.17 243.84 0)
 			(effects
 				(font
@@ -18444,7 +18223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CR0603-FX-1002ELFCT-ND"
+		(property "Vendor Part No" "791-RMC1/16103JTP"
 			(at 217.17 243.84 0)
 			(effects
 				(font
@@ -18505,7 +18284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104J4RACTU"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206046.pdf"
 			(at 153.67 231.14 0)
 			(effects
 				(font
@@ -18514,7 +18293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M"
 			(at 153.67 231.14 0)
 			(effects
 				(font
@@ -18523,7 +18302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 153.67 231.14 0)
 			(effects
 				(font
@@ -18532,7 +18311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "C0603C104J4RAC7867"
+		(property "Mfg Part No" "885012206046"
 			(at 153.67 231.14 0)
 			(effects
 				(font
@@ -18541,7 +18320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 153.67 231.14 0)
 			(effects
 				(font
@@ -18550,7 +18329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-C0603C104J4RAC7867CT-ND"
+		(property "Vendor Part No" "710-885012206046"
 			(at 153.67 231.14 0)
 			(effects
 				(font
@@ -18659,7 +18438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LMV358IDGKR"
+		(property "Value" "LM358LVIDGKR"
 			(at 146.05 236.22 0)
 			(effects
 				(font
@@ -18678,7 +18457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lmv358"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm358lv.pdf"
 			(at 143.51 231.14 0)
 			(effects
 				(font
@@ -18705,7 +18484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "296-13455-1-ND"
+		(property "Mfg Part No" "LM358LVIDGKR"
 			(at 143.51 231.14 0)
 			(effects
 				(font
@@ -18714,7 +18493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 143.51 231.14 0)
 			(effects
 				(font
@@ -18723,7 +18502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "LMV358IDGKR"
+		(property "Vendor Part No" "595-LM358LVIDGKR"
 			(at 143.51 231.14 0)
 			(effects
 				(font
@@ -18766,8 +18545,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Leonardo_Rev3e:CPOL-EUSMCB")
-		(at 123.19 233.68 0)
+		(lib_id "Device:C")
+		(at 123.19 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18775,7 +18554,7 @@
 		(dnp no)
 		(uuid "3139e34b-4e29-4292-8cd3-cba57f93fe96")
 		(property "Reference" "C8"
-			(at 117.729 234.2134 0)
+			(at 117.729 235.4834 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -18783,8 +18562,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10u"
-			(at 115.316 236.7534 0)
+		(property "Value" "10u-16V"
+			(at 115.316 238.0234 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -18792,8 +18571,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:SMC_B"
-			(at 123.19 233.68 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 123.19 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18801,8 +18580,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://api.kemet.com/component-edge/download/datasheet/T491B106M016AT.pdf"
-			(at 123.19 233.68 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012208041.pdf"
+			(at 123.19 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18811,7 +18590,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 233.68 0)
+			(at 123.19 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18819,8 +18598,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 123.19 233.68 0)
+		(property "Manufacturer" "WURTH ELEKTRONIK "
+			(at 123.19 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18828,8 +18607,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "T491B106M016AT"
-			(at 123.19 233.68 0)
+		(property "Mfg Part No" "885012208041"
+			(at 123.19 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18837,8 +18616,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
-			(at 123.19 233.68 0)
+		(property "Vendor" "MOUSER"
+			(at 123.19 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18846,8 +18625,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-3708-1-ND"
-			(at 123.19 233.68 0)
+		(property "Vendor Part No" "710-885012208041"
+			(at 123.19 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18855,10 +18634,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "1"
 			(uuid "593721e7-dda5-497e-a0b5-370dbef4d997")
 		)
-		(pin "-"
+		(pin "2"
 			(uuid "4431e18d-853a-405c-8b2d-c15488909d45")
 		)
 		(instances
@@ -18907,7 +18686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104J4RACTU"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206046.pdf"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -18916,7 +18695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -18925,7 +18704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -18934,7 +18713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "C0603C104J4RAC7867"
+		(property "Mfg Part No" "885012206046"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -18943,7 +18722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -18952,7 +18731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-C0603C104J4RAC7867CT-ND"
+		(property "Vendor Part No" "710-885012206046"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -19127,7 +18906,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "16MHz KX-7"
+		(property "Value" "16MHz"
 			(at 67.31 119.38 90)
 			(effects
 				(font
@@ -19163,7 +18942,34 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "DIGIKEY"
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GEYER ELECTRONIC AMERICA, INC."
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part No" "12.88722"
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "4983-12.88722CT-ND"
 			(at 64.77 114.3 0)
 			(effects
 				(font
@@ -19200,7 +19006,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "381481d4-239c-46c4-a71a-c8eae3e262f6")
 		(property "Reference" "D+0"
 			(at 83.312 223.52 0)
@@ -19305,7 +19111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104J4RACTU"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206046.pdf"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -19314,7 +19120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -19323,7 +19129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -19332,7 +19138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "C0603C104J4RAC7867"
+		(property "Mfg Part No" "885012206046"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -19341,7 +19147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -19350,7 +19156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-C0603C104J4RAC7867CT-ND"
+		(property "Vendor Part No" "710-885012206046"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -19402,7 +19208,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:CAY16"
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
 			(at 151.13 203.2 0)
 			(effects
 				(font
@@ -19411,7 +19217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
+		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CATCAY.pdf"
 			(at 151.13 203.2 0)
 			(effects
 				(font
@@ -19447,7 +19253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 151.13 203.2 0)
 			(effects
 				(font
@@ -19456,7 +19262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CAY16-22R0F4LFCT-ND"
+		(property "Vendor Part No" "652-CAY16-22R0F4LF"
 			(at 151.13 203.2 0)
 			(effects
 				(font
@@ -19534,7 +19340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cga-mlc.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/82306050029.pdf"
 			(at 87.63 238.76 0)
 			(effects
 				(font
@@ -19552,7 +19358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "BOURNS"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 87.63 238.76 0)
 			(effects
 				(font
@@ -19561,7 +19367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "CG0603MLC-05E"
+		(property "Mfg Part No" "82306050029"
 			(at 87.63 238.76 0)
 			(effects
 				(font
@@ -19570,7 +19376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 87.63 238.76 0)
 			(effects
 				(font
@@ -19579,7 +19385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CG0603MLC-05ECT-ND"
+		(property "Vendor Part No" "710-82306050029"
 			(at 87.63 238.76 0)
 			(effects
 				(font
@@ -19610,7 +19416,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "46a7ff94-1738-45fd-8564-093561cf6997")
 		(property "Reference" "GND0"
 			(at 82.55 253.492 0)
@@ -19780,7 +19586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/mh.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74279206.pdf"
 			(at 54.61 223.52 0)
 			(effects
 				(font
@@ -19798,7 +19604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "BOURNS"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 54.61 223.52 0)
 			(effects
 				(font
@@ -19807,7 +19613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "MH2029-300Y"
+		(property "Mfg Part No" "74279206"
 			(at 54.61 223.52 0)
 			(effects
 				(font
@@ -19816,7 +19622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 54.61 223.52 0)
 			(effects
 				(font
@@ -19825,7 +19631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "MH2029-300YCT-ND"
+		(property "Vendor Part No" "710-74279206"
 			(at 54.61 223.52 0)
 			(effects
 				(font
@@ -19867,7 +19673,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 174.498 233.68 0)
 			(effects
 				(font
@@ -19876,7 +19682,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:CAY16"
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
 			(at 171.45 236.22 0)
 			(effects
 				(font
@@ -19885,7 +19691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
+		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CATCAY.pdf"
 			(at 171.45 236.22 0)
 			(effects
 				(font
@@ -19894,7 +19700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOUSER"
 			(at 171.45 236.22 0)
 			(effects
 				(font
@@ -19921,7 +19727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 171.45 236.22 0)
 			(effects
 				(font
@@ -19930,7 +19736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CAY16-1002F4LFCT-ND"
+		(property "Vendor Part No" "652-CAY16-1002F4LF"
 			(at 171.45 236.22 0)
 			(effects
 				(font
@@ -20056,7 +19862,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 347.98 155.702 0)
 			(effects
 				(font
@@ -20065,7 +19871,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:CAY16"
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
 			(at 350.52 158.75 0)
 			(effects
 				(font
@@ -20074,7 +19880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
+		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CATCAY.pdf"
 			(at 350.52 158.75 0)
 			(effects
 				(font
@@ -20083,7 +19889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOUSER"
 			(at 350.52 158.75 0)
 			(effects
 				(font
@@ -20110,7 +19916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 350.52 158.75 0)
 			(effects
 				(font
@@ -20119,7 +19925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CAY16-1002F4LFCT-ND"
+		(property "Vendor Part No" "652-CAY16-1002F4LF"
 			(at 350.52 158.75 0)
 			(effects
 				(font
@@ -20311,7 +20117,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 369.57 86.36 0)
 			(effects
 				(font
@@ -20320,7 +20126,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:CAY16"
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
 			(at 367.03 86.36 0)
 			(effects
 				(font
@@ -20329,7 +20135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
+		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CATCAY.pdf"
 			(at 367.03 86.36 0)
 			(effects
 				(font
@@ -20338,7 +20144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOUSER"
 			(at 367.03 86.36 0)
 			(effects
 				(font
@@ -20365,7 +20171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 367.03 86.36 0)
 			(effects
 				(font
@@ -20374,7 +20180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CAY16-1001F4LFCT-ND"
+		(property "Vendor Part No" "652-CAY16-1001F4LF"
 			(at 367.03 86.36 0)
 			(effects
 				(font
@@ -20423,7 +20229,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5be3c2bc-a599-4366-b9b0-858708fc8b42")
 		(property "Reference" "D-0"
 			(at 103.378 218.44 0)
@@ -20643,7 +20449,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF-16V"
 			(at 275.59 246.38 0)
 			(effects
 				(font
@@ -20661,7 +20467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C105K4RAC7411"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206052.pdf"
 			(at 273.05 246.38 0)
 			(effects
 				(font
@@ -20679,7 +20485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 273.05 246.38 0)
 			(effects
 				(font
@@ -20688,7 +20494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "C0603C105K4RAC7411"
+		(property "Mfg Part No" "885012206052"
 			(at 273.05 246.38 0)
 			(effects
 				(font
@@ -20697,7 +20503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 273.05 246.38 0)
 			(effects
 				(font
@@ -20706,7 +20512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-C0603C105K4RAC7411CT-ND"
+		(property "Vendor Part No" "710-885012206052"
 			(at 273.05 246.38 0)
 			(effects
 				(font
@@ -20766,7 +20572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_16"
 			(at 80.01 114.3 0)
 			(effects
 				(font
@@ -20802,7 +20608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 80.01 114.3 0)
 			(effects
 				(font
@@ -20811,7 +20617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CR0603-FX-1004ELFCT-ND"
+		(property "Vendor Part No" "652-CR0603FX-1004ELF"
 			(at 80.01 114.3 0)
 			(effects
 				(font
@@ -20873,7 +20679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104J4RACTU"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206046.pdf"
 			(at 133.35 236.22 0)
 			(effects
 				(font
@@ -20882,7 +20688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M"
 			(at 133.35 236.22 0)
 			(effects
 				(font
@@ -20891,7 +20697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 133.35 236.22 0)
 			(effects
 				(font
@@ -20900,7 +20706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "C0603C104J4RAC7867"
+		(property "Mfg Part No" "885012206046"
 			(at 133.35 236.22 0)
 			(effects
 				(font
@@ -20909,7 +20715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 133.35 236.22 0)
 			(effects
 				(font
@@ -20918,7 +20724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-C0603C104J4RAC7867CT-ND"
+		(property "Vendor Part No" "710-885012206046"
 			(at 133.35 236.22 0)
 			(effects
 				(font
@@ -20961,7 +20767,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF-16V"
 			(at 99.314 149.479 0)
 			(effects
 				(font
@@ -20979,7 +20785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C105K4RAC7411"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206052.pdf"
 			(at 97.79 144.78 0)
 			(effects
 				(font
@@ -20997,7 +20803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 97.79 144.78 0)
 			(effects
 				(font
@@ -21006,7 +20812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "C0603C105K4RAC7411"
+		(property "Mfg Part No" "885012206052"
 			(at 97.79 144.78 0)
 			(effects
 				(font
@@ -21015,7 +20821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 97.79 144.78 0)
 			(effects
 				(font
@@ -21024,7 +20830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-C0603C105K4RAC7411CT-ND"
+		(property "Vendor Part No" "710-885012206052"
 			(at 97.79 144.78 0)
 			(effects
 				(font
@@ -21264,7 +21070,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 88.138 93.98 0)
 			(effects
 				(font
@@ -21273,7 +21079,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:CAY16"
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
 			(at 85.09 96.52 0)
 			(effects
 				(font
@@ -21282,7 +21088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
+		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CATCAY.pdf"
 			(at 85.09 96.52 0)
 			(effects
 				(font
@@ -21291,7 +21097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOUSER"
 			(at 85.09 96.52 0)
 			(effects
 				(font
@@ -21318,7 +21124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 85.09 96.52 0)
 			(effects
 				(font
@@ -21327,7 +21133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CAY16-1002F4LFCT-ND"
+		(property "Vendor Part No" "652-CAY16-1002F4LF"
 			(at 85.09 96.52 0)
 			(effects
 				(font
@@ -21387,8 +21193,8 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1N4148W-TP"
-			(at 72.6186 86.36 0)
+		(property "Value" "PMEG4005EH"
+			(at 73.406 83.82 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -21396,7 +21202,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -21405,7 +21211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/1N4148W(SOD-123).pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4005EH.pdf"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -21423,7 +21229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MCC"
+		(property "Manufacturer" "NEXPERIA"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -21432,7 +21238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "1N4148W-TP"
+		(property "Mfg Part No" "PMEG4005EH,115"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -21441,7 +21247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -21450,7 +21256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "1N4148WTPMSCT-ND"
+		(property "Vendor Part No" "771-PMEG4005EH-T/R"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -21475,72 +21281,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Leonardo_Rev3e:GND")
-		(at 74.93 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b5ff92e-01b4-45f6-afc6-6e9ef8e6d323")
-		(property "Reference" "#GND06"
-			(at 74.93 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 57.15 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Leonardo_Rev3e:"
-			(at 74.93 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ca2e7bd-f35a-4714-9121-d57f7a77cabf")
-		)
-		(instances
-			(project "Leonardo_Rev3e"
-				(path "/2a51061c-e7a1-4f40-b895-9503c97a61e8"
-					(reference "#GND06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Leonardo_Rev3e:R-EU_R0402")
 		(at 80.01 170.18 0)
 		(unit 1)
@@ -21558,7 +21298,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NM"
+		(property "Value" "0"
 			(at 76.2 173.482 0)
 			(effects
 				(font
@@ -21576,7 +21316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 80.01 170.18 0)
 			(effects
 				(font
@@ -21594,7 +21334,34 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "MOUSER"
+			(at 80.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 80.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part No" "RC0603FR-070RL"
+			(at 80.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "603-RC0603FR-070RL"
 			(at 80.01 170.18 0)
 			(effects
 				(font
@@ -21636,7 +21403,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 328.422 86.36 0)
 			(effects
 				(font
@@ -21645,7 +21412,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:CAY16"
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
 			(at 331.47 83.82 0)
 			(effects
 				(font
@@ -21654,7 +21421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
+		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CATCAY.pdf"
 			(at 331.47 83.82 0)
 			(effects
 				(font
@@ -21663,7 +21430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOUSER"
 			(at 331.47 83.82 0)
 			(effects
 				(font
@@ -21690,7 +21457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 331.47 83.82 0)
 			(effects
 				(font
@@ -21699,7 +21466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CAY16-1001F4LFCT-ND"
+		(property "Vendor Part No" "652-CAY16-1001F4LF"
 			(at 331.47 83.82 0)
 			(effects
 				(font
@@ -21742,8 +21509,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Leonardo_Rev3e:CPOL-EUSMCB")
-		(at 85.09 45.72 0)
+		(lib_id "Device:C")
+		(at 85.09 46.99 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21752,7 +21519,7 @@
 		(dnp no)
 		(uuid "7daf252c-4a89-4cd4-b5fe-1758cf1949ae")
 		(property "Reference" "C10"
-			(at 87.63 45.72 0)
+			(at 87.63 46.99 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -21760,8 +21527,8 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "10u"
-			(at 87.63 48.26 0)
+		(property "Value" "10u-16V"
+			(at 87.63 49.53 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -21769,8 +21536,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:SMC_B"
-			(at 85.09 45.72 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21778,8 +21545,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://api.kemet.com/component-edge/download/datasheet/T491B106M016AT.pdf"
-			(at 85.09 45.72 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012208041.pdf"
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21788,7 +21555,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 45.72 0)
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21796,8 +21563,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 85.09 45.72 0)
+		(property "Manufacturer" "WURTH ELEKTRONIK "
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21805,8 +21572,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "T491B106M016AT"
-			(at 85.09 45.72 0)
+		(property "Mfg Part No" "885012208041"
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21814,8 +21581,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
-			(at 85.09 45.72 0)
+		(property "Vendor" "MOUSER"
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21823,8 +21590,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-3708-1-ND"
-			(at 85.09 45.72 0)
+		(property "Vendor Part No" "710-885012208041"
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21832,10 +21599,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "1"
 			(uuid "57ebf185-432d-4cc7-b6b8-ce1133e86abb")
 		)
-		(pin "-"
+		(pin "2"
 			(uuid "50aa9a66-643c-49dc-8c97-d10af4e6446a")
 		)
 		(instances
@@ -21883,7 +21650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080YS75000.pdf"
 			(at 354.33 93.98 0)
 			(effects
 				(font
@@ -21901,7 +21668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITE-ON"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 354.33 93.98 0)
 			(effects
 				(font
@@ -21910,7 +21677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "LTST-C171KSKT"
+		(property "Mfg Part No" "150080YS75000"
 			(at 354.33 93.98 0)
 			(effects
 				(font
@@ -21919,7 +21686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 354.33 93.98 0)
 			(effects
 				(font
@@ -21928,7 +21695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "160-1428-1-ND"
+		(property "Vendor Part No" "710-150080YS75000"
 			(at 354.33 93.98 0)
 			(effects
 				(font
@@ -22019,8 +21786,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Leonardo_Rev3e:TS07")
-		(at 44.45 68.58 0)
+		(lib_id "Switch:SW_Push_Shielded")
+		(at 46.99 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22028,7 +21795,7 @@
 		(dnp no)
 		(uuid "887e3d3c-fbf4-436a-8093-7b764f2c74eb")
 		(property "Reference" "RESET0"
-			(at 38.1 71.12 90)
+			(at 42.672 72.898 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -22036,8 +21803,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TS07-667-30-BK-160-SMT-TR"
-			(at 35.56 81.28 90)
+		(property "Value" "431181015816"
+			(at 38.862 87.884 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -22045,8 +21812,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:TS07"
-			(at 44.45 68.58 0)
+		(property "Footprint" "Leonardo_Rev3e:PushButton_Wurth_431181015816"
+			(at 41.91 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22054,8 +21821,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.cuidevices.com/product/resource/ts07.pdf"
-			(at 44.45 68.58 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/431181015816.pdf"
+			(at 41.91 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22063,8 +21830,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 44.45 68.58 0)
+		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+			(at 46.99 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22072,8 +21839,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CUI"
-			(at 44.45 68.58 0)
+		(property "Manufacturer" "WURTH ELEKTRONIK "
+			(at 46.99 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22081,8 +21848,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "TS07-667-30-BK-160-SMT-TR"
-			(at 44.45 68.58 0)
+		(property "Mfg Part No" "431181015816"
+			(at 46.99 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22090,8 +21857,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
-			(at 44.45 68.58 0)
+		(property "Vendor" "MOUSER"
+			(at 46.99 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22099,8 +21866,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "2223-TS07-667-30-BK-160-SMT-TRCT-ND"
-			(at 44.45 68.58 0)
+		(property "Vendor Part No" "710-431181015816"
+			(at 46.99 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22114,14 +21881,8 @@
 		(pin "2"
 			(uuid "a3fa5fd6-8919-4fa3-a8e1-b8b7e3a8437b")
 		)
-		(pin "3"
-			(uuid "4d48a0c3-b48b-43c9-898f-0c1af0eb3efd")
-		)
-		(pin "4"
-			(uuid "9ac4fc4e-0c1b-4c5e-a39d-50e8a8123d7d")
-		)
-		(pin "5"
-			(uuid "b8fd4474-204a-435c-8905-28799038bca4")
+		(pin "SH"
+			(uuid "b01e8f47-5d28-499a-a3ec-13c13f16022e")
 		)
 		(instances
 			(project "Leonardo_Rev3e"
@@ -22134,7 +21895,7 @@
 	)
 	(symbol
 		(lib_id "Leonardo_Rev3e:4R-NCAY16")
-		(at 110.49 210.82 0)
+		(at 114.3 201.93 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22143,7 +21904,7 @@
 		(dnp no)
 		(uuid "8afd0e04-2491-45ed-802a-eef512e4b18e")
 		(property "Reference" "RN3"
-			(at 115.57 213.868 0)
+			(at 119.38 204.978 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -22152,7 +21913,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 107.95 213.868 0)
+			(at 111.76 204.978 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -22160,8 +21921,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:CAY16"
-			(at 110.49 210.82 0)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 114.3 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22169,8 +21930,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
-			(at 110.49 210.82 0)
+		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CATCAY.pdf"
+			(at 114.3 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22179,7 +21940,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 210.82 0)
+			(at 114.3 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22188,7 +21949,7 @@
 			)
 		)
 		(property "Manufacturer" "BOURNS"
-			(at 110.49 210.82 0)
+			(at 114.3 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22197,7 +21958,7 @@
 			)
 		)
 		(property "Mfg Part No" "CAY16-22R0F4LF"
-			(at 110.49 210.82 0)
+			(at 114.3 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22205,8 +21966,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
-			(at 110.49 210.82 0)
+		(property "Vendor" "MOUSER"
+			(at 114.3 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22214,8 +21975,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CAY16-22R0F4LFCT-ND"
-			(at 110.49 210.82 0)
+		(property "Vendor Part No" "652-CAY16-22R0F4LF"
+			(at 114.3 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22259,6 +22020,7 @@
 	(symbol
 		(lib_id "Leonardo_Rev3e:POWERSUPPLY_DC21MMX")
 		(at 49.53 33.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22266,7 +22028,7 @@
 		(dnp no)
 		(uuid "8e5708d3-8b21-4a1e-941e-e5cc0a1cd75f")
 		(property "Reference" "EXTPOWER0"
-			(at 39.37 25.4 0)
+			(at 59.69 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -22275,7 +22037,7 @@
 			)
 		)
 		(property "Value" "POWERSUPPLY_DC21MMX"
-			(at 39.37 27.94 0)
+			(at 59.69 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -22283,7 +22045,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:POWERSUPPLY_DC-21MM"
+		(property "Footprint" "Leonardo_Rev3e:BarrelJack_Horizontal_Wurth_694108301002"
 			(at 49.53 33.02 0)
 			(effects
 				(font
@@ -22292,7 +22054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/694108301002.pdf"
 			(at 49.53 33.02 0)
 			(effects
 				(font
@@ -22310,7 +22072,34 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "MOUSER"
+			(at 49.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WURTH ELEKTRONIK "
+			(at 49.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "710-694108301002"
+			(at 49.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part No" "694108301002"
 			(at 49.53 33.02 0)
 			(effects
 				(font
@@ -22364,7 +22153,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:CAY16"
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
 			(at 151.13 198.12 0)
 			(effects
 				(font
@@ -22373,7 +22162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
+		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CATCAY.pdf"
 			(at 151.13 198.12 0)
 			(effects
 				(font
@@ -22409,7 +22198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 151.13 198.12 0)
 			(effects
 				(font
@@ -22418,7 +22207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CAY16-22R0F4LFCT-ND"
+		(property "Vendor Part No" "652-CAY16-22R0F4LF"
 			(at 151.13 198.12 0)
 			(effects
 				(font
@@ -22629,7 +22418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104J4RACTU"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206046.pdf"
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -22638,7 +22427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M"
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -22647,7 +22436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -22656,7 +22445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "C0603C104J4RAC7867"
+		(property "Mfg Part No" "885012206046"
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -22665,7 +22454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -22674,7 +22463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-C0603C104J4RAC7867CT-ND"
+		(property "Vendor Part No" "710-885012206046"
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -22771,7 +22560,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9bc7bef2-0f54-42ae-83bc-8bba4e26e42c")
 		(property "Reference" "FID3"
 			(at 54.61 17.78 0)
@@ -22920,7 +22709,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 351.282 88.9 0)
 			(effects
 				(font
@@ -22929,7 +22718,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:CAY16"
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
 			(at 354.33 86.36 0)
 			(effects
 				(font
@@ -22938,7 +22727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
+		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CATCAY.pdf"
 			(at 354.33 86.36 0)
 			(effects
 				(font
@@ -22947,7 +22736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOUSER"
 			(at 354.33 86.36 0)
 			(effects
 				(font
@@ -22974,7 +22763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 354.33 86.36 0)
 			(effects
 				(font
@@ -22983,7 +22772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CAY16-1001F4LFCT-ND"
+		(property "Vendor Part No" "652-CAY16-1001F4LF"
 			(at 354.33 86.36 0)
 			(effects
 				(font
@@ -23062,7 +22851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300811821.pdf"
 			(at 191.77 30.48 0)
 			(effects
 				(font
@@ -23080,7 +22869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SULLINS"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 191.77 30.48 0)
 			(effects
 				(font
@@ -23089,7 +22878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "PPPC081LFBN-RC"
+		(property "Mfg Part No" "61300811821"
 			(at 191.77 30.48 0)
 			(effects
 				(font
@@ -23098,7 +22887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 191.77 30.48 0)
 			(effects
 				(font
@@ -23107,7 +22896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "S7041-ND"
+		(property "Vendor Part No" "710-61300811821"
 			(at 191.77 30.48 0)
 			(effects
 				(font
@@ -23156,7 +22945,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ae22d7e9-20c7-43a6-8dbf-81bd346f07f1")
 		(property "Reference" "JP2"
@@ -23186,7 +22975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
 			(at 74.93 215.9 0)
 			(effects
 				(font
@@ -23204,7 +22993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMTEC"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 74.93 215.9 0)
 			(effects
 				(font
@@ -23213,7 +23002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "DW-02-07-T-S-200"
+		(property "Mfg Part No" "61300211121"
 			(at 74.93 215.9 0)
 			(effects
 				(font
@@ -23222,7 +23011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 74.93 215.9 0)
 			(effects
 				(font
@@ -23231,7 +23020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "SAM15134-ND"
+		(property "Vendor Part No" "710-61300211121"
 			(at 74.93 215.9 0)
 			(effects
 				(font
@@ -23291,7 +23080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=146486&DocType=Customer+Drawing&DocLang=English"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300621121.pdf"
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -23309,7 +23098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TE"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -23318,7 +23107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "5-146486-3"
+		(property "Mfg Part No" "61300621121"
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -23327,7 +23116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -23336,7 +23125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "A128860-ND"
+		(property "Vendor Part No" "710-61300621121"
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -23456,7 +23245,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 168.402 223.52 0)
 			(effects
 				(font
@@ -23465,7 +23254,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:CAY16"
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
 			(at 171.45 220.98 0)
 			(effects
 				(font
@@ -23474,7 +23263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
+		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CATCAY.pdf"
 			(at 171.45 220.98 0)
 			(effects
 				(font
@@ -23483,7 +23272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOUSER"
 			(at 171.45 220.98 0)
 			(effects
 				(font
@@ -23510,7 +23299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 171.45 220.98 0)
 			(effects
 				(font
@@ -23519,7 +23308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CAY16-1002F4LFCT-ND"
+		(property "Vendor Part No" "652-CAY16-1002F4LF"
 			(at 171.45 220.98 0)
 			(effects
 				(font
@@ -23629,7 +23418,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 74.93 48.26 270)
+		(at 73.66 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23637,7 +23426,7 @@
 		(dnp no)
 		(uuid "bc5d6d31-2708-40cb-a638-c8bbbfe43fea")
 		(property "Reference" "D1"
-			(at 77.47 46.736 0)
+			(at 75.184 45.72 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -23645,8 +23434,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "M7"
-			(at 70.866 46.482 0)
+		(property "Value" "PMEG6020AELR"
+			(at 75.438 39.116 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -23654,8 +23443,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 74.93 48.26 0)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 73.66 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23663,8 +23452,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 74.93 48.26 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6020AELR.pdf"
+			(at 73.66 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23673,7 +23462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 48.26 0)
+			(at 73.66 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23681,8 +23470,35 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
-			(at 74.93 48.26 0)
+		(property "Vendor" "MOUSER"
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NEXPERIA"
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "771-PMEG6020AELRX"
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part No" "PMEG6020AELRX"
+			(at 73.66 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23724,7 +23540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LMV358IDGKR"
+		(property "Value" "LM358LVIDGKR"
 			(at 209.55 228.6 0)
 			(effects
 				(font
@@ -23743,7 +23559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lmv358"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm358lv.pdf"
 			(at 207.01 223.52 0)
 			(effects
 				(font
@@ -23770,7 +23586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "296-13455-1-ND"
+		(property "Mfg Part No" "LM358LVIDGKR"
 			(at 207.01 223.52 0)
 			(effects
 				(font
@@ -23779,7 +23595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 207.01 223.52 0)
 			(effects
 				(font
@@ -23788,7 +23604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "LMV358IDGKR"
+		(property "Vendor Part No" "595-LM358LVIDGKR"
 			(at 207.01 223.52 0)
 			(effects
 				(font
@@ -23915,7 +23731,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "FDN340P"
+		(property "Value" "NXV65UP"
 			(at 227.965 241.935 90)
 			(effects
 				(font
@@ -23933,7 +23749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/UTD%20Semi%20PDFs/UMW%20FDN340P.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NXV65UP.pdf"
 			(at 234.95 236.22 0)
 			(effects
 				(font
@@ -23951,7 +23767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UMW"
+		(property "Manufacturer" "NEXPERIA"
 			(at 234.95 236.22 0)
 			(effects
 				(font
@@ -23960,7 +23776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "FDN340P"
+		(property "Mfg Part No" "NXV65UPR"
 			(at 234.95 236.22 0)
 			(effects
 				(font
@@ -23969,7 +23785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 234.95 236.22 0)
 			(effects
 				(font
@@ -23978,7 +23794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "4518-FDN340PCT-ND"
+		(property "Vendor Part No" "771-NXV65UPR"
 			(at 234.95 236.22 0)
 			(effects
 				(font
@@ -24072,52 +23888,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Leonardo_Rev3e:USBMICRO")
-		(at 64.77 203.2 0)
-		(mirror y)
+		(lib_id "Connector:USB_B_Micro")
+		(at 57.15 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ca1e5e65-97d6-40c5-b524-5d1bb40a15c0")
 		(property "Reference" "J1"
-			(at 55.88 194.31 0)
+			(at 50.8 204.4699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "USBMICRO"
-			(at 55.88 198.12 0)
+			(at 50.8 207.0099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:10118194-0001LF"
-			(at 55.88 199.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.amphenol-cs.com/media/wysiwyg/files/drawing/10118194.pdf"
-			(at 64.77 203.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 203.2 0)
+		(property "Footprint" "Leonardo_Rev3e:Micro_USB_2.0_SMT_Type_B_Wurth_629105150521"
+			(at 60.96 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24125,8 +23923,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "AMPHENOL"
-			(at 64.77 203.2 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/629105150521.pdf"
+			(at 60.96 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24134,8 +23932,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "10118194-0001LF"
-			(at 64.77 203.2 0)
+		(property "Description" "USB Micro Type B connector"
+			(at 57.15 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24143,8 +23941,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
-			(at 64.77 203.2 0)
+		(property "Manufacturer" "WURTH ELEKTRONIK "
+			(at 57.15 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24152,8 +23950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "609-4618-1-ND"
-			(at 64.77 203.2 0)
+		(property "Mfg Part No" "629105150521"
+			(at 57.15 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24161,20 +23959,41 @@
 				(hide yes)
 			)
 		)
-		(pin "P1"
+		(property "Vendor" "MOUSER"
+			(at 57.15 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part No" "710-629105150521"
+			(at 57.15 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
 			(uuid "95f742a5-8d7a-4e31-9519-6c1ced4055b5")
 		)
-		(pin "P2"
+		(pin "4"
 			(uuid "87d5c659-2b0c-43ae-8588-645efac40266")
 		)
-		(pin "P3"
+		(pin "3"
 			(uuid "55d75fca-e9d8-4330-b372-f0f307162e6f")
 		)
-		(pin "P4"
+		(pin "2"
 			(uuid "b9fbc7b2-81ad-46e1-ace2-7b14664355a1")
 		)
-		(pin "P5"
+		(pin "5"
 			(uuid "70be7051-2001-40bb-81be-1bcfd030d8c3")
+		)
+		(pin "1"
+			(uuid "6ee1cee4-2eab-4a9e-a211-7ccc14893a29")
 		)
 		(instances
 			(project "Leonardo_Rev3e"
@@ -24287,7 +24106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080YS75000.pdf"
 			(at 331.47 93.98 0)
 			(effects
 				(font
@@ -24305,7 +24124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITE-ON"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 331.47 93.98 0)
 			(effects
 				(font
@@ -24314,7 +24133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "LTST-C171KSKT"
+		(property "Mfg Part No" "150080YS75000"
 			(at 331.47 93.98 0)
 			(effects
 				(font
@@ -24323,7 +24142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 331.47 93.98 0)
 			(effects
 				(font
@@ -24332,7 +24151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "160-1428-1-ND"
+		(property "Vendor Part No" "710-150080YS75000"
 			(at 331.47 93.98 0)
 			(effects
 				(font
@@ -24393,7 +24212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300811821.pdf"
 			(at 163.83 86.36 0)
 			(effects
 				(font
@@ -24411,7 +24230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SULLINS"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 163.83 86.36 0)
 			(effects
 				(font
@@ -24420,7 +24239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "PPPC081LFBN-RC"
+		(property "Mfg Part No" "61300811821"
 			(at 163.83 86.36 0)
 			(effects
 				(font
@@ -24429,7 +24248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 163.83 86.36 0)
 			(effects
 				(font
@@ -24438,7 +24257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "S7041-ND"
+		(property "Vendor Part No" "710-61300811821"
 			(at 163.83 86.36 0)
 			(effects
 				(font
@@ -24553,7 +24372,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "db04301b-509f-4277-9675-2f648646fa69")
 		(property "Reference" "FID1"
 			(at 39.37 17.78 0)
@@ -24654,7 +24473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cga-mlc.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/82306050029.pdf"
 			(at 97.79 238.76 0)
 			(effects
 				(font
@@ -24672,7 +24491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "BOURNS"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 97.79 238.76 0)
 			(effects
 				(font
@@ -24681,7 +24500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "CG0603MLC-05E"
+		(property "Mfg Part No" "82306050029"
 			(at 97.79 238.76 0)
 			(effects
 				(font
@@ -24690,7 +24509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 97.79 238.76 0)
 			(effects
 				(font
@@ -24699,7 +24518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CG0603MLC-05ECT-ND"
+		(property "Vendor Part No" "710-82306050029"
 			(at 97.79 238.76 0)
 			(effects
 				(font
@@ -24724,8 +24543,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Leonardo_Rev3e:CPOL-EUSMCB")
-		(at 130.81 43.18 0)
+		(lib_id "Device:C")
+		(at 130.81 44.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24734,7 +24553,7 @@
 		(dnp no)
 		(uuid "dd10ffa6-7ca2-473e-af29-491b15435fd8")
 		(property "Reference" "C12"
-			(at 133.35 43.18 0)
+			(at 133.35 44.45 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -24742,8 +24561,8 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "10u"
-			(at 133.35 45.72 0)
+		(property "Value" "10u-16V"
+			(at 133.35 46.99 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -24751,8 +24570,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:SMC_B"
-			(at 130.81 43.18 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 130.81 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24760,8 +24579,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://api.kemet.com/component-edge/download/datasheet/T491B106M016AT.pdf"
-			(at 130.81 43.18 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012208041.pdf"
+			(at 130.81 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24770,7 +24589,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 43.18 0)
+			(at 130.81 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24778,8 +24597,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 130.81 43.18 0)
+		(property "Manufacturer" "WURTH ELEKTRONIK "
+			(at 130.81 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24787,8 +24606,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "T491B106M016AT"
-			(at 130.81 43.18 0)
+		(property "Mfg Part No" "885012208041"
+			(at 130.81 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24796,8 +24615,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
-			(at 130.81 43.18 0)
+		(property "Vendor" "MOUSER"
+			(at 130.81 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24805,8 +24624,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "399-3708-1-ND"
-			(at 130.81 43.18 0)
+		(property "Vendor Part No" "710-885012208041"
+			(at 130.81 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24814,10 +24633,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "2"
 			(uuid "32057538-ffb1-414c-b360-93172d225389")
 		)
-		(pin "-"
+		(pin "1"
 			(uuid "aba26d88-efa2-4297-9f80-e952e99870de")
 		)
 		(instances
@@ -24979,7 +24798,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 338.582 88.9 0)
 			(effects
 				(font
@@ -24988,7 +24807,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Leonardo_Rev3e:CAY16"
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
 			(at 341.63 86.36 0)
 			(effects
 				(font
@@ -24997,7 +24816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
+		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CATCAY.pdf"
 			(at 341.63 86.36 0)
 			(effects
 				(font
@@ -25006,7 +24825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOUSER"
 			(at 341.63 86.36 0)
 			(effects
 				(font
@@ -25033,7 +24852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 341.63 86.36 0)
 			(effects
 				(font
@@ -25042,7 +24861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "CAY16-1001F4LFCT-ND"
+		(property "Vendor Part No" "652-CAY16-1001F4LF"
 			(at 341.63 86.36 0)
 			(effects
 				(font
@@ -25120,7 +24939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080GS75000.pdf"
 			(at 367.03 99.06 0)
 			(effects
 				(font
@@ -25138,7 +24957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LITE-ON"
+		(property "Manufacturer" "WURTH ELEKTRONIK "
 			(at 367.03 99.06 0)
 			(effects
 				(font
@@ -25147,7 +24966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "LTST-C171KGKT"
+		(property "Mfg Part No" "150080GS75000"
 			(at 367.03 99.06 0)
 			(effects
 				(font
@@ -25156,7 +24975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 367.03 99.06 0)
 			(effects
 				(font
@@ -25165,7 +24984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "160-1426-1-ND"
+		(property "Vendor Part No" "710-150080GS75000"
 			(at 367.03 99.06 0)
 			(effects
 				(font
@@ -25592,7 +25411,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fe62f18d-eb09-4fd0-a073-cb60e96df456")
 		(property "Reference" "U2"
 			(at 261.62 119.888 0)
@@ -25603,7 +25422,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ATMEGA32U4-XUAU"
+		(property "Value" "ATMEGA32U4-AU"
 			(at 261.62 209.55 0)
 			(effects
 				(font
@@ -25621,7 +25440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf"
 			(at 281.94 146.05 0)
 			(effects
 				(font
@@ -25657,7 +25476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY"
+		(property "Vendor" "MOUSER"
 			(at 281.94 146.05 0)
 			(effects
 				(font
@@ -25666,7 +25485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "ATMEGA32U4-AU-ND"
+		(property "Vendor Part No" "556-ATMEGA32U4-AU"
 			(at 281.94 146.05 0)
 			(effects
 				(font
@@ -25834,7 +25653,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "REG1117-5"
+		(property "Value" "LDI1117-05H"
 			(at 106.68 43.18 0)
 			(effects
 				(font
@@ -25852,7 +25671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/reg1117"
+		(property "Datasheet" "https://diotec.com/request/datasheet/ldi1117h.pdf"
 			(at 102.87 38.1 0)
 			(effects
 				(font
@@ -25870,7 +25689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TEXAS INSTRUMENTS"
+		(property "Manufacturer" "DIOTEC SEMICONDUCTOR"
 			(at 102.87 38.1 0)
 			(effects
 				(font
@@ -25879,7 +25698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg Part No" "REG1117-5"
+		(property "Mfg Part No" "LDI1117-05H"
 			(at 102.87 38.1 0)
 			(effects
 				(font
@@ -25888,7 +25707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "DIGIKEY "
+		(property "Vendor" "MOUSER"
 			(at 102.87 38.1 0)
 			(effects
 				(font
@@ -25897,7 +25716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part No" "REG1117-5-ND"
+		(property "Vendor Part No" "637-LDI1117-05H"
 			(at 102.87 38.1 0)
 			(effects
 				(font

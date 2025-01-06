@@ -275,7 +275,7 @@
 		(solder_mask_margin 0.0508)
 		(uuid "69e1ef19-6501-4002-886a-c4aca69b49b4")
 	)
-	(model "${KIPRJMOD}/Leonardo_Rev3e.3dshapes/LED_0805_2012Metric.step"
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric_Castellated.step"
 		(offset
 			(xyz 0 0 0)
 		)
