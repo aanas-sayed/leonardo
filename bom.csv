@@ -29,5 +29,5 @@
 "U1","ATMEGA32U4-MU","https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf","Leonardo_Rev3e:QFN44ML7X7","1","","556-ATMEGA32U4-MU","MICROCHIP TECHNOLOGY","ATMEGA32U4-MU","MOUSER"
 "U2","ATMEGA32U4-AU","https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf","Leonardo_Rev3e:TQFP44-PAD","1","DNP","556-ATMEGA32U4-AU","MICROCHIP TECHNOLOGY","ATMEGA32U4-AU","MOUSER"
 "U3","LDI559-3.3EN","https://diotec.com/request/datasheet/ldi559en.pdf","Package_TO_SOT_SMD:SOT-23-5","1","","637-LDI559-3.3EN","DIOTEC SEMICONDUCTOR","LDI559-3.3EN","MOUSER"
-"Y1","16MHz","","Leonardo_Rev3e:CRYSTAL-3.2-2.5","1","","4983-12.88722CT-ND","GEYER ELECTRONIC AMERICA, INC.","12.88722","DIGIKEY"
+"Y1","16MHz","https://www.geyer-electronic.shop/downloads/products/1288722/12.88722.pdf","Leonardo_Rev3e:CRYSTAL-3.2-2.5","1","","4983-12.88722CT-ND","GEYER ELECTRONIC AMERICA, INC.","12.88722","DIGIKEY"
 "Z1,Z2","CG0603MLC-05E","https://www.we-online.com/components/products/datasheet/82306050029.pdf","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","2","","710-82306050029","WURTH ELEKTRONIK ","82306050029","MOUSER"

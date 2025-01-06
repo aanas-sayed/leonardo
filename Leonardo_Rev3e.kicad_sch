@@ -18924,7 +18924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.geyer-electronic.shop/downloads/products/1288722/12.88722.pdf"
 			(at 64.77 114.3 0)
 			(effects
 				(font

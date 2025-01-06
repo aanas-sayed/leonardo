@@ -14904,7 +14904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.geyer-electronic.shop/downloads/products/1288722/12.88722.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
