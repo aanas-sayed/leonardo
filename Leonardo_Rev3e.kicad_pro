@@ -643,7 +643,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Mfg Part No",
           "name": "Mfg Part No",
           "show": true
